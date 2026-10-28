@@ -15,7 +15,7 @@ from sqlalchemy.orm import Session
 
 from procex.config import Settings, get_settings
 from procex.db import get_session, init_db
-from procex.extractor import ClaudeExtractor, Extractor, FixtureExtractor
+from procex.extractor import ClaudeCodeExtractor, ClaudeExtractor, Extractor, FixtureExtractor
 from procex.logging_config import configure_logging, new_request_id, request_id_var
 from procex.models import Document, DocumentStatus, ReviewTask, TaskStatus
 from procex.pdf import PDF_MAGIC, InvalidPdfError
@@ -29,6 +29,8 @@ def get_extractor() -> Extractor:
     settings = get_settings()
     if settings.extractor == "fixture":
         return FixtureExtractor(Path(settings.fixtures_dir))
+    if settings.extractor == "claude-code":
+        return ClaudeCodeExtractor(settings.claude_code_model)
     return ClaudeExtractor(settings)
 
 

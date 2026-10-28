@@ -2,7 +2,11 @@
 evaluation use ``FixtureExtractor`` so they run without an API key."""
 
 import base64
+import json
 import logging
+import os
+import subprocess
+import tempfile
 import time
 from dataclasses import dataclass
 from pathlib import Path
@@ -120,6 +124,68 @@ class ClaudeExtractor:
             output_tokens=response.usage.output_tokens,
             latency_ms=latency_ms,
             request_id=response._request_id,
+        )
+
+
+class ClaudeCodeExtractor:
+    """Runs the same prompt and schema through the Claude Code CLI (`claude -p`) on the user's Claude
+    subscription instead of the pay-per-token API. Meant for evaluation runs, not for serving traffic."""
+
+    def __init__(self, model: str | None = None, timeout_s: int = 300) -> None:
+        self._model = model
+        self._timeout_s = timeout_s
+
+    def extract(self, pdf_bytes: bytes, filename: str) -> ExtractionResult:
+        schema = json.dumps(ExtractedDocument.model_json_schema())
+        # Without an API key in the environment the CLI uses the logged-in subscription, so this never
+        # bills the API account even if ANTHROPIC_API_KEY is exported in the calling shell.
+        env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
+        with tempfile.TemporaryDirectory() as workdir:
+            pdf_name = "document.pdf"
+            with open(os.path.join(workdir, pdf_name), "wb") as fh:
+                fh.write(pdf_bytes)
+            cmd = [
+                "claude", "-p", f"{USER_PROMPT} The document is the file {pdf_name} in the current directory.",
+                "--append-system-prompt", SYSTEM_PROMPT,
+                "--output-format", "json",
+                "--json-schema", schema,
+                "--tools", "Read",  # it may only read the PDF
+                "--no-session-persistence",
+                "--strict-mcp-config",
+                "--setting-sources", "",
+            ]  # fmt: skip
+            if self._model:
+                cmd += ["--model", self._model]
+            started = time.perf_counter()
+            try:
+                proc = subprocess.run(  # noqa: S603 - fixed argv, no shell
+                    cmd, cwd=workdir, env=env, capture_output=True, text=True, timeout=self._timeout_s, check=False
+                )
+            except FileNotFoundError as e:
+                raise ExtractionError("Claude Code CLI (`claude`) is not installed or not on PATH") from e
+            except subprocess.TimeoutExpired as e:
+                raise ExtractionError(f"Claude Code CLI timed out after {self._timeout_s}s") from e
+        latency_ms = int((time.perf_counter() - started) * 1000)
+
+        try:
+            out = json.loads(proc.stdout)
+        except json.JSONDecodeError as e:
+            raise ExtractionError(f"Claude Code CLI failed (exit {proc.returncode}): {proc.stderr[:300]}") from e
+        if out.get("is_error") or out.get("structured_output") is None:
+            raise ExtractionError(f"Claude Code CLI returned no structured output: {str(out.get('result'))[:300]}")
+
+        usage = out.get("modelUsage") or {}
+        # the CLI may use a small model for housekeeping; report the one that did the most work
+        model = max(usage, key=lambda m: usage[m].get("outputTokens", 0), default="claude-code")
+        return ExtractionResult(
+            document=ExtractedDocument.model_validate(out["structured_output"]),
+            model=f"{model} (via Claude Code)",
+            input_tokens=sum(
+                u.get("inputTokens", 0) + u.get("cacheReadInputTokens", 0) + u.get("cacheCreationInputTokens", 0)
+                for u in usage.values()
+            ),
+            output_tokens=sum(u.get("outputTokens", 0) for u in usage.values()),
+            latency_ms=latency_ms,
         )
 
 

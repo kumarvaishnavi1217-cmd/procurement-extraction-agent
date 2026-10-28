@@ -38,6 +38,7 @@ packages = ["src/procex"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]  # test the source tree, not an installed copy
 addopts = "-ra"
 
 [tool.ruff]

@@ -1,6 +1,7 @@
 """The Claude request and response handling, against a stub client (no network, no API key)."""
 
 import base64
+import json
 from pathlib import Path
 from types import SimpleNamespace
 from typing import Any
@@ -83,3 +84,42 @@ def test_missing_credentials_become_extraction_error(monkeypatch: pytest.MonkeyP
     monkeypatch.setenv("HOME", str(tmp_path))  # no `ant auth login` profile either, as in a fresh container
     with pytest.raises(ExtractionError, match="not configured"):
         ClaudeExtractor(Settings()).extract(pdf("doc01"), "doc01.pdf")
+
+
+def test_claude_code_extractor_uses_subscription_not_api_key(monkeypatch: pytest.MonkeyPatch) -> None:
+    from procex.extractor import ClaudeCodeExtractor
+
+    seen: dict[str, Any] = {}
+
+    def fake_run(cmd: list[str], **kwargs: Any) -> Any:
+        seen["cmd"], seen["env"] = cmd, kwargs["env"]
+        out = {
+            "is_error": False,
+            "structured_output": fixture_doc().model_dump(),
+            "modelUsage": {"claude-opus-5-5": {"inputTokens": 10, "outputTokens": 900}},
+        }
+        return SimpleNamespace(stdout=json.dumps(out), stderr="", returncode=0)
+
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-should-not-be-used")
+    monkeypatch.setattr("procex.extractor.subprocess.run", fake_run)
+    result = ClaudeCodeExtractor(model="opus").extract(pdf("doc01"), "doc01.pdf")
+
+    assert "ANTHROPIC_API_KEY" not in seen["env"]
+    assert seen["cmd"][:2] == ["claude", "-p"]
+    assert seen["cmd"][seen["cmd"].index("--tools") + 1] == "Read"
+    assert seen["cmd"][-2:] == ["--model", "opus"]
+    assert result.document == fixture_doc()
+    assert result.model == "claude-opus-5-5 (via Claude Code)"
+
+
+def test_claude_code_extractor_reports_cli_errors(monkeypatch: pytest.MonkeyPatch) -> None:
+    from procex.extractor import ClaudeCodeExtractor
+
+    monkeypatch.setattr(
+        "procex.extractor.subprocess.run",
+        lambda cmd, **kw: SimpleNamespace(
+            stdout='{"is_error": true, "result": "Not logged in"}', stderr="", returncode=1
+        ),
+    )
+    with pytest.raises(ExtractionError, match="Not logged in"):
+        ClaudeCodeExtractor().extract(pdf("doc01"), "doc01.pdf")

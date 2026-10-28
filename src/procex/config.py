@@ -9,8 +9,10 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql+psycopg://procex:procex@localhost:5432/procex"
 
-    # LLM. "fixture" replays stored outputs for the eval documents (demo without an API key)
-    extractor: Literal["claude", "fixture"] = "claude"
+    # LLM. "claude-code" runs through the Claude Code CLI on a Claude subscription (evaluation without API
+    # billing); "fixture" replays stored outputs for the eval documents (demo without any account)
+    extractor: Literal["claude", "claude-code", "fixture"] = "claude"
+    claude_code_model: str | None = None
     fixtures_dir: str = "eval/fixtures"
     model: str = "claude-opus-5-5"
     effort: Literal["low", "medium", "high", "xhigh", "max"] = "medium"

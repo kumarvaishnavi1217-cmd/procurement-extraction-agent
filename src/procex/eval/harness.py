@@ -1,6 +1,7 @@
 """Field-level evaluation against a labelled document set.
 
     procex-eval --dataset eval/dataset --extractor claude          # live, needs ANTHROPIC_API_KEY
+    procex-eval --dataset eval/dataset --extractor claude-code     # live via `claude -p`, Claude subscription
     procex-eval --dataset eval/dataset --extractor fixture --fixtures eval/fixtures
 
 Besides raw accuracy it measures the review queue itself: how many wrong values it catches
@@ -17,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 from procex.config import get_settings
-from procex.extractor import ClaudeExtractor, ExtractionError, Extractor, FixtureExtractor
+from procex.extractor import ClaudeCodeExtractor, ClaudeExtractor, ExtractionError, Extractor, FixtureExtractor
 from procex.pdf import extract_text, normalise
 from procex.validation import validate
 
@@ -102,7 +103,7 @@ class Report:
             summary["mean_latency_ms"] = int(sum(self.latency_ms) / len(self.latency_ms))
             summary["input_tokens"] = self.input_tokens
             summary["output_tokens"] = self.output_tokens
-            if self.model in PRICES:
+            if self.model in PRICES:  # API runs only; "(via Claude Code)" runs are on a subscription
                 pin, pout = PRICES[self.model]
                 cost = (self.input_tokens * pin + self.output_tokens * pout) / 1e6
                 summary["cost_usd"] = round(cost, 4)
@@ -188,14 +189,21 @@ def print_table(summary: dict[str, Any]) -> None:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--dataset", type=Path, default=Path("eval/dataset"))
-    parser.add_argument("--extractor", choices=["claude", "fixture"], default="claude")
+    parser.add_argument("--extractor", choices=["claude", "claude-code", "fixture"], default="claude")
+    parser.add_argument("--model", help="model for --extractor claude-code, e.g. opus or sonnet")
     parser.add_argument("--fixtures", type=Path, default=Path("eval/fixtures"))
     parser.add_argument("--out", type=Path, help="write the JSON report here")
     parser.add_argument("--min-auto-accepted-accuracy", type=float, help="exit 1 below this (CI gate)")
     args = parser.parse_args(argv)
 
     settings = get_settings()
-    extractor: Extractor = ClaudeExtractor(settings) if args.extractor == "claude" else FixtureExtractor(args.fixtures)
+    extractor: Extractor
+    if args.extractor == "claude":
+        extractor = ClaudeExtractor(settings)
+    elif args.extractor == "claude-code":
+        extractor = ClaudeCodeExtractor(args.model or settings.claude_code_model)
+    else:
+        extractor = FixtureExtractor(args.fixtures)
     summary = evaluate(args.dataset, extractor, settings.review_threshold, settings.buyer_names).summary()
     print_table(summary)
     if args.out:
