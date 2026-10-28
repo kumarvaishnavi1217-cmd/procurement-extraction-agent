@@ -1,0 +1,35 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Sierra Components Inc.",
+  "document_number": "INV-2026-1711",
+  "document_date": "2026-09-02",
+  "currency": "GBP",
+  "subtotal": 44023.0,
+  "total": 52827.6,
+  "line_items": [
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 25,
+      "unit_price": 140.18,
+      "line_total": 3504.5
+    },
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 50,
+      "unit_price": 92.26,
+      "line_total": 4613.0
+    },
+    {
+      "part_number": "GSK-NBR-50",
+      "quantity": 100,
+      "unit_price": 87.32,
+      "line_total": 8732.0
+    },
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 50,
+      "unit_price": 543.47,
+      "line_total": 27173.5
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "document_type": "quote",
+  "supplier_name": {
+    "value": "Nordwerk Industrietechnik GmbH",
+    "confidence": 0.97,
+    "evidence": "Nordwerk Industrietechnik GmbH"
+  },
+  "document_number": {
+    "value": "Q-2026-2489",
+    "confidence": 0.96,
+    "evidence": "Quote #: Q-2026-2489"
+  },
+  "document_date": {
+    "value": "2026-02-03",
+    "confidence": 0.93,
+    "evidence": "Date: 3 February 2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "All amounts in EUR"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.96,
+        "evidence": "Article MTR-0.75KW-4P"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.9,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 100,
+        "confidence": 0.96,
+        "evidence": "100 pcs"
+      },
+      "unit_price": {
+        "value": 808.07,
+        "confidence": 0.96,
+        "evidence": "x 808,07"
+      },
+      "line_total": {
+        "value": 80807.0,
+        "confidence": 0.96,
+        "evidence": "= 80.807,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.96,
+        "evidence": "Article RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.9,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 100,
+        "confidence": 0.96,
+        "evidence": "100 pcs"
+      },
+      "unit_price": {
+        "value": 325.99,
+        "confidence": 0.96,
+        "evidence": "x 325,99"
+      },
+      "line_total": {
+        "value": 32599.0,
+        "confidence": 0.96,
+        "evidence": "= 32.599,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.96,
+        "evidence": "Article CBL-NYY-3G2.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.9,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 5,
+        "confidence": 0.96,
+        "evidence": "5 pcs"
+      },
+      "unit_price": {
+        "value": 458.72,
+        "confidence": 0.96,
+        "evidence": "x 458,72"
+      },
+      "line_total": {
+        "value": 2293.6,
+        "confidence": 0.96,
+        "evidence": "= 2.293,60"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 115699.6,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 115.699,60"
+  },
+  "total": {
+    "value": 137682.52,
+    "confidence": 0.96,
+    "evidence": "Total: 137.682,52"
+  }
+}

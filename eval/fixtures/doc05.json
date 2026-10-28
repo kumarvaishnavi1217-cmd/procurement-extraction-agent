@@ -1,0 +1,143 @@
+{
+  "document_type": "quote",
+  "supplier_name": {
+    "value": "Rhine Precision Parts GmbH",
+    "confidence": 0.97,
+    "evidence": "Rhine Precision Parts GmbH"
+  },
+  "document_number": {
+    "value": "Q-2026-4598",
+    "confidence": 0.96,
+    "evidence": "Quote #: Q-2026-4598"
+  },
+  "document_date": {
+    "value": "2026-06-01",
+    "confidence": 0.93,
+    "evidence": "Date: 01.06.2026"
+  },
+  "currency": {
+    "value": "SEK",
+    "confidence": 0.97,
+    "evidence": "All amounts in SEK"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.96,
+        "evidence": "Article FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.9,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2 pcs"
+      },
+      "unit_price": {
+        "value": 548.34,
+        "confidence": 0.96,
+        "evidence": "x 548,34"
+      },
+      "line_total": {
+        "value": 1096.68,
+        "confidence": 0.96,
+        "evidence": "= 1.096,68"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.96,
+        "evidence": "Article SNS-PT100-A"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.9,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 5,
+        "confidence": 0.96,
+        "evidence": "5 pcs"
+      },
+      "unit_price": {
+        "value": 480.87,
+        "confidence": 0.96,
+        "evidence": "x 480,87"
+      },
+      "line_total": {
+        "value": 2404.35,
+        "confidence": 0.96,
+        "evidence": "= 2.404,35"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.96,
+        "evidence": "Article CBL-NYY-3G2.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.9,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 10,
+        "confidence": 0.96,
+        "evidence": "10 pcs"
+      },
+      "unit_price": {
+        "value": 147.31,
+        "confidence": 0.96,
+        "evidence": "x 147,31"
+      },
+      "line_total": {
+        "value": 1473.1,
+        "confidence": 0.96,
+        "evidence": "= 1.473,10"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.96,
+        "evidence": "Article RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.9,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 100,
+        "confidence": 0.96,
+        "evidence": "100 pcs"
+      },
+      "unit_price": {
+        "value": 243.17,
+        "confidence": 0.96,
+        "evidence": "x 243,17"
+      },
+      "line_total": {
+        "value": 24317.0,
+        "confidence": 0.96,
+        "evidence": "= 24.317,00"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 29291.13,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 29.291,13"
+  },
+  "total": {
+    "value": 36613.91,
+    "confidence": 0.96,
+    "evidence": "Total: 36.613,91"
+  }
+}

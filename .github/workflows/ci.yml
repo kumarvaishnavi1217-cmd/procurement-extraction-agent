@@ -1,0 +1,64 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      live_eval:
+        description: "Run the evaluation against the live Claude API (costs money)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check . && ruff format --check .
+      - name: Type check
+        run: mypy src
+      - name: Tests (unit, API on PostgreSQL via Testcontainers, regression snapshot)
+        run: pytest
+      - name: Offline evaluation gate
+        env:
+          PROCEX_BUYER_NAMES: '["Meridian Manufacturing GmbH"]'
+        run: procex-eval --extractor fixture --min-auto-accepted-accuracy 0.98
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t procex:ci .
+
+  live-eval:
+    if: github.event_name == 'workflow_dispatch' && inputs.live_eval
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Evaluate Claude on the labelled set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PROCEX_BUYER_NAMES: '["Meridian Manufacturing GmbH"]'
+        run: procex-eval --extractor claude --out eval-report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: eval-report.json

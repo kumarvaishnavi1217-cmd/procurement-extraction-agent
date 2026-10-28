@@ -1,0 +1,55 @@
+[project]
+name = "procurement-extraction-agent"
+version = "0.1.0"
+description = "LLM pipeline that extracts supplier, part number, quantity and price from PDF quotes and invoices"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic==2.3.0",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "sqlalchemy>=2.0.30",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.8",
+    "pydantic-settings>=2.4",
+    "pypdf>=5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "httpx>=0.27",
+    "testcontainers[postgres]>=4.8",
+    "reportlab>=4.2",
+    "ruff>=0.6",
+    "mypy>=1.11",
+]
+
+[project.scripts]
+procex-eval = "procex.eval.harness:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/procex"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "SIM"]
+ignore = ["S101"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+ignore_missing_imports = true

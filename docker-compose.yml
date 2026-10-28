@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: procex
+      POSTGRES_USER: procex
+      POSTGRES_PASSWORD: procex
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U procex"]
+      interval: 3s
+      retries: 20
+
+  api:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PROCEX_DATABASE_URL: postgresql+psycopg://procex:procex@postgres:5432/procex
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      # "fixture" replays stored outputs for eval/dataset PDFs, no API key needed
+      PROCEX_EXTRACTOR: ${PROCEX_EXTRACTOR:-claude}
+      PROCEX_BUYER_NAMES: '["Meridian Manufacturing GmbH"]'
+    ports:
+      - "8000:8000"

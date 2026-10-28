@@ -1,0 +1,170 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Meridian Manufacturing GmbH",
+    "confidence": 0.9,
+    "evidence": "Bill To: Meridian Manufacturing GmbH"
+  },
+  "document_number": {
+    "value": "INV-2026-8428",
+    "confidence": 0.96,
+    "evidence": "Invoice No: INV-2026-8428"
+  },
+  "document_date": {
+    "value": "2026-06-03",
+    "confidence": 0.93,
+    "evidence": "Date: 2026-06-03"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "All amounts in EUR"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "BRG-6204-2RS",
+        "confidence": 0.96,
+        "evidence": "BRG-6204-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-2RS",
+        "confidence": 0.9,
+        "evidence": "Deep groove ball bearing 6204-2RS"
+      },
+      "quantity": {
+        "value": 50,
+        "confidence": 0.96,
+        "evidence": "50"
+      },
+      "unit_price": {
+        "value": 519.74,
+        "confidence": 0.96,
+        "evidence": "519,74"
+      },
+      "line_total": {
+        "value": 25987.0,
+        "confidence": 0.96,
+        "evidence": "25.987,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.96,
+        "evidence": "MTR-0.75KW-4P"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.9,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 41.53,
+        "confidence": 0.96,
+        "evidence": "41,53"
+      },
+      "line_total": {
+        "value": 83.06,
+        "confidence": 0.96,
+        "evidence": "83,06"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.96,
+        "evidence": "CBL-NYY-3G2.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.9,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 10,
+        "confidence": 0.96,
+        "evidence": "10"
+      },
+      "unit_price": {
+        "value": 695.83,
+        "confidence": 0.96,
+        "evidence": "695,83"
+      },
+      "line_total": {
+        "value": 6958.3,
+        "confidence": 0.96,
+        "evidence": "6.958,30"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.96,
+        "evidence": "GSK-NBR-50"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.9,
+        "evidence": "NBR gasket 50 mm"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 769.83,
+        "confidence": 0.96,
+        "evidence": "769,83"
+      },
+      "line_total": {
+        "value": 1539.66,
+        "confidence": 0.96,
+        "evidence": "1.539,66"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.96,
+        "evidence": "FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.9,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 342.3,
+        "confidence": 0.96,
+        "evidence": "342,30"
+      },
+      "line_total": {
+        "value": 684.6,
+        "confidence": 0.96,
+        "evidence": "684,60"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 35252.62,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 35.252,62"
+  },
+  "total": {
+    "value": 41950.62,
+    "confidence": 0.96,
+    "evidence": "Total: 41.950,62"
+  }
+}

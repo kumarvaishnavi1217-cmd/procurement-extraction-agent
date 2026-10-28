@@ -1,0 +1,143 @@
+{
+  "document_type": "quote",
+  "supplier_name": {
+    "value": "Sierra Components Inc.",
+    "confidence": 0.97,
+    "evidence": "Sierra Components Inc."
+  },
+  "document_number": {
+    "value": "Q-2026-5889",
+    "confidence": 0.96,
+    "evidence": "Quote #: Q-2026-5889"
+  },
+  "document_date": {
+    "value": "2026-09-10",
+    "confidence": 0.93,
+    "evidence": "Date: 2026-09-10"
+  },
+  "currency": {
+    "value": "GBP",
+    "confidence": 0.97,
+    "evidence": "All amounts in GBP"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "BRG-6204-2RS",
+        "confidence": 0.96,
+        "evidence": "Article BRG-6204-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-2RS",
+        "confidence": 0.9,
+        "evidence": "Deep groove ball bearing 6204-2RS"
+      },
+      "quantity": {
+        "value": 250,
+        "confidence": 0.96,
+        "evidence": "250 pcs"
+      },
+      "unit_price": {
+        "value": 3.22,
+        "confidence": 0.96,
+        "evidence": "x 3.22"
+      },
+      "line_total": {
+        "value": 805.0,
+        "confidence": 0.96,
+        "evidence": "= 805.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.96,
+        "evidence": "Article CBL-NYY-3G2.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.9,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 25,
+        "confidence": 0.96,
+        "evidence": "25 pcs"
+      },
+      "unit_price": {
+        "value": 874.71,
+        "confidence": 0.96,
+        "evidence": "x 874.71"
+      },
+      "line_total": {
+        "value": 21867.75,
+        "confidence": 0.96,
+        "evidence": "= 21,867.75"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.96,
+        "evidence": "Article GSK-NBR-50"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.9,
+        "evidence": "NBR gasket 50 mm"
+      },
+      "quantity": {
+        "value": 5,
+        "confidence": 0.96,
+        "evidence": "5 pcs"
+      },
+      "unit_price": {
+        "value": 457.06,
+        "confidence": 0.96,
+        "evidence": "x 457.06"
+      },
+      "line_total": {
+        "value": 2285.3,
+        "confidence": 0.96,
+        "evidence": "= 2,285.30"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.96,
+        "evidence": "Article RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.9,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2 pcs"
+      },
+      "unit_price": {
+        "value": 783.51,
+        "confidence": 0.96,
+        "evidence": "x 783.51"
+      },
+      "line_total": {
+        "value": 1567.02,
+        "confidence": 0.96,
+        "evidence": "= 1,567.02"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 26525.07,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 26,525.07"
+  },
+  "total": {
+    "value": 31830.08,
+    "confidence": 0.96,
+    "evidence": "Total: 31,830.08"
+  }
+}

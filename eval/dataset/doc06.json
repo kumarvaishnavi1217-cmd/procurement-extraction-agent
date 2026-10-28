@@ -1,0 +1,29 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Keystone Electrical Supply Co.",
+  "document_number": "INV-2026-8517",
+  "document_date": "2026-05-03",
+  "currency": "USD",
+  "subtotal": 100138.75,
+  "total": 100138.75,
+  "line_items": [
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 25,
+      "unit_price": 59.85,
+      "line_total": 1496.25
+    },
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 50,
+      "unit_price": 191.6,
+      "line_total": 9580.0
+    },
+    {
+      "part_number": "GSK-NBR-50",
+      "quantity": 250,
+      "unit_price": 356.25,
+      "line_total": 89062.5
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Sierra Components Inc.",
+  "document_number": "Q-2026-5889",
+  "document_date": "2026-09-10",
+  "currency": "GBP",
+  "subtotal": 26525.07,
+  "total": 31830.08,
+  "line_items": [
+    {
+      "part_number": "BRG-6204-2RS",
+      "quantity": 250,
+      "unit_price": 3.22,
+      "line_total": 805.0
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 25,
+      "unit_price": 874.71,
+      "line_total": 21867.75
+    },
+    {
+      "part_number": "GSK-NBR-50",
+      "quantity": 5,
+      "unit_price": 457.06,
+      "line_total": 2285.3
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 2,
+      "unit_price": 783.51,
+      "line_total": 1567.02
+    }
+  ]
+}

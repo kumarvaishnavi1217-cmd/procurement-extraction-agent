@@ -1,0 +1,143 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Sierra Components Inc.",
+    "confidence": 0.97,
+    "evidence": "Sierra Components Inc."
+  },
+  "document_number": {
+    "value": "INV-2026-1711",
+    "confidence": 0.96,
+    "evidence": "Invoice No: INV-2026-1711"
+  },
+  "document_date": {
+    "value": "2026-09-02",
+    "confidence": 0.93,
+    "evidence": "Date: 2 September 2026"
+  },
+  "currency": {
+    "value": "GBP",
+    "confidence": 0.97,
+    "evidence": "All amounts in GBP"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.96,
+        "evidence": "HX-M8-25-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.9,
+        "evidence": "Hex bolt M8x25, zinc plated"
+      },
+      "quantity": {
+        "value": 25,
+        "confidence": 0.96,
+        "evidence": "25"
+      },
+      "unit_price": {
+        "value": 140.18,
+        "confidence": 0.96,
+        "evidence": "140.18"
+      },
+      "line_total": {
+        "value": 3504.5,
+        "confidence": 0.96,
+        "evidence": "3,504.50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.96,
+        "evidence": "VLV-BALL-DN25"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless",
+        "confidence": 0.9,
+        "evidence": "Ball valve DN25 stainless"
+      },
+      "quantity": {
+        "value": 50,
+        "confidence": 0.96,
+        "evidence": "50"
+      },
+      "unit_price": {
+        "value": 92.26,
+        "confidence": 0.96,
+        "evidence": "92.26"
+      },
+      "line_total": {
+        "value": 4613.0,
+        "confidence": 0.96,
+        "evidence": "4,613.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.96,
+        "evidence": "GSK-NBR-50"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.9,
+        "evidence": "NBR gasket 50 mm"
+      },
+      "quantity": {
+        "value": 100,
+        "confidence": 0.96,
+        "evidence": "100"
+      },
+      "unit_price": {
+        "value": 87.32,
+        "confidence": 0.96,
+        "evidence": "87.32"
+      },
+      "line_total": {
+        "value": 8732.0,
+        "confidence": 0.96,
+        "evidence": "8,732.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.96,
+        "evidence": "MTR-0.75KW-4P"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.9,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 50,
+        "confidence": 0.96,
+        "evidence": "50"
+      },
+      "unit_price": {
+        "value": 543.47,
+        "confidence": 0.96,
+        "evidence": "543.47"
+      },
+      "line_total": {
+        "value": 27173.5,
+        "confidence": 0.96,
+        "evidence": "27,173.50"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 44023.0,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 44,023.00"
+  },
+  "total": {
+    "value": 52827.6,
+    "confidence": 0.96,
+    "evidence": "Total: 52,827.60"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Nordwerk Industrietechnik GmbH",
+  "document_number": "INV-2026-9935",
+  "document_date": "2026-07-01",
+  "currency": "EUR",
+  "subtotal": 3229.46,
+  "total": 3843.06,
+  "line_items": [
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 10,
+      "unit_price": 201.12,
+      "line_total": 2011.2
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 2,
+      "unit_price": 609.13,
+      "line_total": 1218.26
+    }
+  ]
+}

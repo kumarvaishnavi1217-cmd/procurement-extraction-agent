@@ -1,0 +1,89 @@
+{
+  "document_type": "quote",
+  "supplier_name": {
+    "value": "Apex Fasteners Ltd",
+    "confidence": 0.97,
+    "evidence": "Apex Fasteners Ltd"
+  },
+  "document_number": {
+    "value": "Q-2026-9928",
+    "confidence": 0.96,
+    "evidence": "Quote #: Q-2026-9928"
+  },
+  "document_date": {
+    "value": "2026-04-08",
+    "confidence": 0.93,
+    "evidence": "Date: 2026-04-08"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "All amounts in USD"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "BRG-6204-2RS",
+        "confidence": 0.96,
+        "evidence": "Article BRG-6204-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-2RS",
+        "confidence": 0.9,
+        "evidence": "Deep groove ball bearing 6204-2RS"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.9,
+        "evidence": "10 pcs"
+      },
+      "unit_price": {
+        "value": 454.97,
+        "confidence": 0.96,
+        "evidence": "x 454.97"
+      },
+      "line_total": {
+        "value": 4549.7,
+        "confidence": 0.96,
+        "evidence": "= 4,549.70"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.96,
+        "evidence": "Article SNS-PT100-A"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.9,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 1,
+        "confidence": 0.96,
+        "evidence": "1 pcs"
+      },
+      "unit_price": {
+        "value": 505.25,
+        "confidence": 0.96,
+        "evidence": "x 505.25"
+      },
+      "line_total": {
+        "value": 505.25,
+        "confidence": 0.96,
+        "evidence": "= 505.25"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 5054.95,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 5,054.95"
+  },
+  "total": {
+    "value": 5054.95,
+    "confidence": 0.96,
+    "evidence": "Total: 5,054.95"
+  }
+}

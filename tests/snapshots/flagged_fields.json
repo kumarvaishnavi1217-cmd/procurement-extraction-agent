@@ -1,0 +1,32 @@
+{
+  "doc01": [],
+  "doc02": [
+    "line_items[0].line_total",
+    "line_items[0].quantity",
+    "line_items[0].unit_price"
+  ],
+  "doc03": [],
+  "doc04": [
+    "supplier_name"
+  ],
+  "doc05": [],
+  "doc06": [
+    "document_date"
+  ],
+  "doc07": [],
+  "doc08": [
+    "document_number"
+  ],
+  "doc09": [],
+  "doc10": [
+    "line_items[1].line_total",
+    "line_items[1].quantity",
+    "line_items[1].unit_price"
+  ],
+  "doc11": [
+    "subtotal"
+  ],
+  "doc12": [
+    "line_items[0].part_number"
+  ]
+}

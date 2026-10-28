@@ -1,0 +1,29 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Nordwerk Industrietechnik GmbH",
+  "document_number": "Q-2026-2489",
+  "document_date": "2026-02-03",
+  "currency": "EUR",
+  "subtotal": 115699.6,
+  "total": 137682.52,
+  "line_items": [
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 100,
+      "unit_price": 808.07,
+      "line_total": 80807.0
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 100,
+      "unit_price": 325.99,
+      "line_total": 32599.0
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 5,
+      "unit_price": 458.72,
+      "line_total": 2293.6
+    }
+  ]
+}

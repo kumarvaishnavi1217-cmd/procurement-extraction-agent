@@ -1,0 +1,41 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Keystone Electrical Supply Co.",
+  "document_number": "Q-2026-4770",
+  "document_date": "2026-04-01",
+  "currency": "EUR",
+  "subtotal": 137688.1,
+  "total": 163848.84,
+  "line_items": [
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 100,
+      "unit_price": 895.64,
+      "line_total": 89564.0
+    },
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 50,
+      "unit_price": 394.46,
+      "line_total": 19723.0
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 250,
+      "unit_price": 109.17,
+      "line_total": 27292.5
+    },
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 10,
+      "unit_price": 57.9,
+      "line_total": 579.0
+    },
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 1,
+      "unit_price": 529.6,
+      "line_total": 529.6
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Rhine Precision Parts GmbH",
+    "confidence": 0.97,
+    "evidence": "Rhine Precision Parts GmbH"
+  },
+  "document_number": {
+    "value": "INV-2026-8787",
+    "confidence": 0.96,
+    "evidence": "Invoice No: INV-2026-8787"
+  },
+  "document_date": {
+    "value": "2026-03-05",
+    "confidence": 0.93,
+    "evidence": "Date: 05.03.2026"
+  },
+  "currency": {
+    "value": "CHF",
+    "confidence": 0.97,
+    "evidence": "All amounts in CHF"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "BRG-6204-2RS",
+        "confidence": 0.96,
+        "evidence": "BRG-6204-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-2RS",
+        "confidence": 0.9,
+        "evidence": "Deep groove ball bearing 6204-2RS"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 880.19,
+        "confidence": 0.96,
+        "evidence": "880.19"
+      },
+      "line_total": {
+        "value": 1760.38,
+        "confidence": 0.96,
+        "evidence": "1,760.38"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 2339.43,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 2,339.43"
+  },
+  "total": {
+    "value": 2528.92,
+    "confidence": 0.96,
+    "evidence": "Total: 2,528.92"
+  }
+}

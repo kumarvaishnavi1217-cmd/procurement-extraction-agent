@@ -1,0 +1,29 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Apex Fasteners Ltd",
+  "document_number": "INV-2026-2876",
+  "document_date": "2026-09-05",
+  "currency": "EUR",
+  "subtotal": 173339.35,
+  "total": 206273.83,
+  "line_items": [
+    {
+      "part_number": "GSK-NBR-50",
+      "quantity": 100,
+      "unit_price": 536.42,
+      "line_total": 53642.0
+    },
+    {
+      "part_number": "BRG-6204-2RS",
+      "quantity": 250,
+      "unit_price": 476.34,
+      "line_total": 119085.0
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 1,
+      "unit_price": 612.35,
+      "line_total": 612.35
+    }
+  ]
+}

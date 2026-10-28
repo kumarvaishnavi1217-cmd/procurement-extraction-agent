@@ -1,0 +1,116 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Baltic Hydraulics AB",
+    "confidence": 0.97,
+    "evidence": "Baltic Hydraulics AB"
+  },
+  "document_number": {
+    "value": "INV-2026-6038",
+    "confidence": 0.96,
+    "evidence": "Invoice No: INV-2026-6038"
+  },
+  "document_date": {
+    "value": "2026-01-04",
+    "confidence": 0.93,
+    "evidence": "Date: 4 January 2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "All amounts in USD"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.96,
+        "evidence": "VLV-BALL-DN25"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless",
+        "confidence": 0.9,
+        "evidence": "Ball valve DN25 stainless"
+      },
+      "quantity": {
+        "value": 1,
+        "confidence": 0.96,
+        "evidence": "1"
+      },
+      "unit_price": {
+        "value": 539.17,
+        "confidence": 0.96,
+        "evidence": "539.17"
+      },
+      "line_total": {
+        "value": 539.17,
+        "confidence": 0.96,
+        "evidence": "539.17"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.96,
+        "evidence": "FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.9,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 250,
+        "confidence": 0.96,
+        "evidence": "250"
+      },
+      "unit_price": {
+        "value": 18.82,
+        "confidence": 0.96,
+        "evidence": "18.82"
+      },
+      "line_total": {
+        "value": 4455.0,
+        "confidence": 0.96,
+        "evidence": "4,455.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.96,
+        "evidence": "RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.9,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 50,
+        "confidence": 0.96,
+        "evidence": "50"
+      },
+      "unit_price": {
+        "value": 790.89,
+        "confidence": 0.96,
+        "evidence": "790.89"
+      },
+      "line_total": {
+        "value": 39544.5,
+        "confidence": 0.96,
+        "evidence": "39,544.50"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 44538.67,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 44,538.67"
+  },
+  "total": {
+    "value": 44538.67,
+    "confidence": 0.96,
+    "evidence": "Total: 44,538.67"
+  }
+}

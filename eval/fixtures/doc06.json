@@ -1,0 +1,116 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Keystone Electrical Supply Co.",
+    "confidence": 0.97,
+    "evidence": "Keystone Electrical Supply Co."
+  },
+  "document_number": {
+    "value": "INV-2026-8517",
+    "confidence": 0.96,
+    "evidence": "Invoice No: INV-2026-8517"
+  },
+  "document_date": {
+    "value": "2026-03-05",
+    "confidence": 0.65,
+    "evidence": "Date: 05/03/2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "All amounts in USD"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.96,
+        "evidence": "HX-M8-25-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.9,
+        "evidence": "Hex bolt M8x25, zinc plated"
+      },
+      "quantity": {
+        "value": 25,
+        "confidence": 0.96,
+        "evidence": "25"
+      },
+      "unit_price": {
+        "value": 59.85,
+        "confidence": 0.96,
+        "evidence": "59.85"
+      },
+      "line_total": {
+        "value": 1496.25,
+        "confidence": 0.96,
+        "evidence": "1,496.25"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.96,
+        "evidence": "FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.9,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 50,
+        "confidence": 0.96,
+        "evidence": "50"
+      },
+      "unit_price": {
+        "value": 191.6,
+        "confidence": 0.96,
+        "evidence": "191.60"
+      },
+      "line_total": {
+        "value": 9580.0,
+        "confidence": 0.96,
+        "evidence": "9,580.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.96,
+        "evidence": "GSK-NBR-50"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.9,
+        "evidence": "NBR gasket 50 mm"
+      },
+      "quantity": {
+        "value": 250,
+        "confidence": 0.96,
+        "evidence": "250"
+      },
+      "unit_price": {
+        "value": 356.25,
+        "confidence": 0.96,
+        "evidence": "356.25"
+      },
+      "line_total": {
+        "value": 89062.5,
+        "confidence": 0.96,
+        "evidence": "89,062.50"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 100138.75,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 100,138.75"
+  },
+  "total": {
+    "value": 100138.75,
+    "confidence": 0.96,
+    "evidence": "Total: 100,138.75"
+  }
+}

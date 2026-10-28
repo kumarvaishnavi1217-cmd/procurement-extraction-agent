@@ -1,0 +1,170 @@
+{
+  "document_type": "quote",
+  "supplier_name": {
+    "value": "Keystone Electrical Supply Co.",
+    "confidence": 0.97,
+    "evidence": "Keystone Electrical Supply Co."
+  },
+  "document_number": {
+    "value": "Q-2026-4770",
+    "confidence": 0.96,
+    "evidence": "Quote #: Q-2026-4770"
+  },
+  "document_date": {
+    "value": "2026-04-01",
+    "confidence": 0.93,
+    "evidence": "Date: 2026-04-01"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "All amounts in EUR"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.6,
+        "evidence": "Article SNS-PT100-A"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.9,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 100,
+        "confidence": 0.96,
+        "evidence": "100 pcs"
+      },
+      "unit_price": {
+        "value": 895.64,
+        "confidence": 0.96,
+        "evidence": "x 895,64"
+      },
+      "line_total": {
+        "value": 89564.0,
+        "confidence": 0.96,
+        "evidence": "= 89.564,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.96,
+        "evidence": "Article MTR-0.75KW-4P"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.9,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 50,
+        "confidence": 0.96,
+        "evidence": "50 pcs"
+      },
+      "unit_price": {
+        "value": 394.46,
+        "confidence": 0.96,
+        "evidence": "x 394,46"
+      },
+      "line_total": {
+        "value": 19723.0,
+        "confidence": 0.96,
+        "evidence": "= 19.723,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.96,
+        "evidence": "Article RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.9,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 250,
+        "confidence": 0.96,
+        "evidence": "250 pcs"
+      },
+      "unit_price": {
+        "value": 109.17,
+        "confidence": 0.96,
+        "evidence": "x 109,17"
+      },
+      "line_total": {
+        "value": 27292.5,
+        "confidence": 0.96,
+        "evidence": "= 27.292,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.96,
+        "evidence": "Article FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.9,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 10,
+        "confidence": 0.96,
+        "evidence": "10 pcs"
+      },
+      "unit_price": {
+        "value": 57.9,
+        "confidence": 0.96,
+        "evidence": "x 57,90"
+      },
+      "line_total": {
+        "value": 579.0,
+        "confidence": 0.96,
+        "evidence": "= 579,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.96,
+        "evidence": "Article VLV-BALL-DN25"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless",
+        "confidence": 0.9,
+        "evidence": "Ball valve DN25 stainless"
+      },
+      "quantity": {
+        "value": 1,
+        "confidence": 0.96,
+        "evidence": "1 pcs"
+      },
+      "unit_price": {
+        "value": 529.6,
+        "confidence": 0.96,
+        "evidence": "x 529,60"
+      },
+      "line_total": {
+        "value": 529.6,
+        "confidence": 0.96,
+        "evidence": "= 529,60"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 137688.1,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 137.688,10"
+  },
+  "total": {
+    "value": 163848.84,
+    "confidence": 0.96,
+    "evidence": "Total: 163.848,84"
+  }
+}

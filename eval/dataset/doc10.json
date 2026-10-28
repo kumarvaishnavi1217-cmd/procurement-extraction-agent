@@ -1,0 +1,29 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Baltic Hydraulics AB",
+  "document_number": "INV-2026-6038",
+  "document_date": "2026-01-04",
+  "currency": "USD",
+  "subtotal": 44538.67,
+  "total": 44538.67,
+  "line_items": [
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 1,
+      "unit_price": 539.17,
+      "line_total": 539.17
+    },
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 250,
+      "unit_price": 17.82,
+      "line_total": 4455.0
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 50,
+      "unit_price": 790.89,
+      "line_total": 39544.5
+    }
+  ]
+}

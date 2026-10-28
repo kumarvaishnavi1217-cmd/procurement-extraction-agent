@@ -1,0 +1,35 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Rhine Precision Parts GmbH",
+  "document_number": "Q-2026-4598",
+  "document_date": "2026-06-01",
+  "currency": "SEK",
+  "subtotal": 29291.13,
+  "total": 36613.91,
+  "line_items": [
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 2,
+      "unit_price": 548.34,
+      "line_total": 1096.68
+    },
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 5,
+      "unit_price": 480.87,
+      "line_total": 2404.35
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 10,
+      "unit_price": 147.31,
+      "line_total": 1473.1
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 100,
+      "unit_price": 243.17,
+      "line_total": 24317.0
+    }
+  ]
+}

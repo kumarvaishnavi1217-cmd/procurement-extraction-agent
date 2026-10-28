@@ -1,0 +1,89 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Nordwerk Industrietechnik GmbH",
+    "confidence": 0.97,
+    "evidence": "Nordwerk Industrietechnik GmbH"
+  },
+  "document_number": {
+    "value": "INV-2026-9935",
+    "confidence": 0.96,
+    "evidence": "Invoice No: INV-2026-9935"
+  },
+  "document_date": {
+    "value": "2026-07-01",
+    "confidence": 0.93,
+    "evidence": "Date: 01.07.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "All amounts in EUR"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.96,
+        "evidence": "HX-M8-25-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.9,
+        "evidence": "Hex bolt M8x25, zinc plated"
+      },
+      "quantity": {
+        "value": 10,
+        "confidence": 0.96,
+        "evidence": "10"
+      },
+      "unit_price": {
+        "value": 201.12,
+        "confidence": 0.96,
+        "evidence": "201,12"
+      },
+      "line_total": {
+        "value": 2011.2,
+        "confidence": 0.96,
+        "evidence": "2.011,20"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.96,
+        "evidence": "CBL-NYY-3G2.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.9,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 2,
+        "confidence": 0.96,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 609.13,
+        "confidence": 0.96,
+        "evidence": "609,13"
+      },
+      "line_total": {
+        "value": 1218.26,
+        "confidence": 0.96,
+        "evidence": "1.218,26"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 3229.46,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 3.229,46"
+  },
+  "total": {
+    "value": 3843.06,
+    "confidence": 0.96,
+    "evidence": "Total: 3.843,06"
+  }
+}

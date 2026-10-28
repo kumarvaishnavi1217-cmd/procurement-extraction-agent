@@ -1,0 +1,23 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Apex Fasteners Ltd",
+  "document_number": "Q-2026-9928",
+  "document_date": "2026-04-08",
+  "currency": "USD",
+  "subtotal": 5054.95,
+  "total": 5054.95,
+  "line_items": [
+    {
+      "part_number": "BRG-6204-2RS",
+      "quantity": 10,
+      "unit_price": 454.97,
+      "line_total": 4549.7
+    },
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 1,
+      "unit_price": 505.25,
+      "line_total": 505.25
+    }
+  ]
+}

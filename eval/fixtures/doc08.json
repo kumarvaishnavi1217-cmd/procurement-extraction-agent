@@ -1,0 +1,116 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Apex Fasteners Ltd",
+    "confidence": 0.97,
+    "evidence": "Apex Fasteners Ltd"
+  },
+  "document_number": {
+    "value": "PO-99353",
+    "confidence": 0.92,
+    "evidence": "Your PO: PO-99353"
+  },
+  "document_date": {
+    "value": "2026-09-05",
+    "confidence": 0.93,
+    "evidence": "Date: 05.09.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "All amounts in EUR"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.96,
+        "evidence": "GSK-NBR-50"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.9,
+        "evidence": "NBR gasket 50 mm"
+      },
+      "quantity": {
+        "value": 100,
+        "confidence": 0.96,
+        "evidence": "100"
+      },
+      "unit_price": {
+        "value": 536.42,
+        "confidence": 0.96,
+        "evidence": "536.42"
+      },
+      "line_total": {
+        "value": 53642.0,
+        "confidence": 0.96,
+        "evidence": "53,642.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6204-2RS",
+        "confidence": 0.96,
+        "evidence": "BRG-6204-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-2RS",
+        "confidence": 0.9,
+        "evidence": "Deep groove ball bearing 6204-2RS"
+      },
+      "quantity": {
+        "value": 250,
+        "confidence": 0.96,
+        "evidence": "250"
+      },
+      "unit_price": {
+        "value": 476.34,
+        "confidence": 0.96,
+        "evidence": "476.34"
+      },
+      "line_total": {
+        "value": 119085.0,
+        "confidence": 0.96,
+        "evidence": "119,085.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.96,
+        "evidence": "RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.9,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 1,
+        "confidence": 0.96,
+        "evidence": "1"
+      },
+      "unit_price": {
+        "value": 612.35,
+        "confidence": 0.96,
+        "evidence": "612.35"
+      },
+      "line_total": {
+        "value": 612.35,
+        "confidence": 0.96,
+        "evidence": "612.35"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 173339.35,
+    "confidence": 0.96,
+    "evidence": "Subtotal: 173,339.35"
+  },
+  "total": {
+    "value": 206273.83,
+    "confidence": 0.96,
+    "evidence": "Total: 206,273.83"
+  }
+}
