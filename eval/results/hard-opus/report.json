@@ -1,0 +1,66 @@
+{
+  "model": "claude-opus-5-5 (via Claude Code)",
+  "documents": 16,
+  "failed_documents": [],
+  "fields_scored": 472,
+  "field_accuracy": 1.0,
+  "review_rate": 0.0847,
+  "auto_accepted_accuracy": 1.0,
+  "error_catch_rate": 1.0,
+  "per_field": {
+    "currency": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "document_date": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "document_number": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "line_total": {
+      "accuracy": 1.0,
+      "review_rate": 0.0745,
+      "n": 94
+    },
+    "part_number": {
+      "accuracy": 1.0,
+      "review_rate": 0.0745,
+      "n": 94
+    },
+    "quantity": {
+      "accuracy": 1.0,
+      "review_rate": 0.0745,
+      "n": 94
+    },
+    "subtotal": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "supplier_name": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "total": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "unit_price": {
+      "accuracy": 1.0,
+      "review_rate": 0.0745,
+      "n": 94
+    }
+  },
+  "errors": [],
+  "mean_latency_ms": 28504,
+  "input_tokens": 239648,
+  "output_tokens": 33481
+}

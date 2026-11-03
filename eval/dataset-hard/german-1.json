@@ -1,0 +1,47 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Nordwerk Industrietechnik GmbH",
+  "document_number": "RE-26-18886",
+  "document_date": "2026-09-15",
+  "currency": "EUR",
+  "subtotal": 17143.65,
+  "total": 20400.94,
+  "line_items": [
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 2,
+      "unit_price": 245.65,
+      "line_total": 491.3
+    },
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 10,
+      "unit_price": 581.0,
+      "line_total": 5810.0
+    },
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 50,
+      "unit_price": 156.53,
+      "line_total": 7826.5
+    },
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 1,
+      "unit_price": 431.84,
+      "line_total": 431.84
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 4,
+      "unit_price": 591.4,
+      "line_total": 2365.6
+    },
+    {
+      "part_number": "FLT-HYD-25U",
+      "quantity": 1,
+      "unit_price": 218.41,
+      "line_total": 218.41
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Sierra Components Inc.",
+    "confidence": 0.97,
+    "evidence": "Sierra Components Inc."
+  },
+  "document_number": {
+    "value": "INV-358282",
+    "confidence": 0.98,
+    "evidence": "Invoice No: INV-358282"
+  },
+  "document_date": {
+    "value": "2026-07-27",
+    "confidence": 0.95,
+    "evidence": "Date: 07/27/2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "All amounts in USD."
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "NUT-M8-ZN",
+        "confidence": 0.97,
+        "evidence": "1 NUT-M8-ZN Hex nut M8, zinc plated 40 539.47 21,578.80"
+      },
+      "description": {
+        "value": "Hex nut M8, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex nut M8, zinc plated"
+      },
+      "quantity": {
+        "value": 40.0,
+        "confidence": 0.97,
+        "evidence": "40 539.47 21,578.80"
+      },
+      "unit_price": {
+        "value": 539.47,
+        "confidence": 0.97,
+        "evidence": "539.47"
+      },
+      "line_total": {
+        "value": 21578.8,
+        "confidence": 0.97,
+        "evidence": "21,578.80"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-1.1KW-4P",
+        "confidence": 0.97,
+        "evidence": "2 MTR-1.1KW-4P Induction motor 1.1 kW 4-pole 2 612.43 1,224.86"
+      },
+      "description": {
+        "value": "Induction motor 1.1 kW 4-pole",
+        "confidence": 0.97,
+        "evidence": "Induction motor 1.1 kW 4-pole"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2 612.43 1,224.86"
+      },
+      "unit_price": {
+        "value": 612.43,
+        "confidence": 0.97,
+        "evidence": "612.43"
+      },
+      "line_total": {
+        "value": 1224.86,
+        "confidence": 0.97,
+        "evidence": "1,224.86"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.97,
+        "evidence": "3 FLT-HYD-10U Hydraulic filter element 10 micron 40 884.46 35,378.40"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.97,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 40.0,
+        "confidence": 0.97,
+        "evidence": "40 884.46 35,378.40"
+      },
+      "unit_price": {
+        "value": 884.46,
+        "confidence": 0.97,
+        "evidence": "884.46"
+      },
+      "line_total": {
+        "value": 35378.4,
+        "confidence": 0.97,
+        "evidence": "35,378.40"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.97,
+        "evidence": "4 BRG-6205-2RS Deep groove ball bearing 6205-2RS 2 564.12 1,128.24"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6205-2RS"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2 564.12 1,128.24"
+      },
+      "unit_price": {
+        "value": 564.12,
+        "confidence": 0.97,
+        "evidence": "564.12"
+      },
+      "line_total": {
+        "value": 1128.24,
+        "confidence": 0.97,
+        "evidence": "1,128.24"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-230VAC-2CO",
+        "confidence": 0.97,
+        "evidence": "5 RLY-230VAC-2CO Relay 230 V AC 2 CO 12 567.89 6,814.68"
+      },
+      "description": {
+        "value": "Relay 230 V AC 2 CO",
+        "confidence": 0.97,
+        "evidence": "Relay 230 V AC 2 CO"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "12 567.89 6,814.68"
+      },
+      "unit_price": {
+        "value": 567.89,
+        "confidence": 0.97,
+        "evidence": "567.89"
+      },
+      "line_total": {
+        "value": 6814.68,
+        "confidence": 0.97,
+        "evidence": "6,814.68"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.97,
+        "evidence": "6 GSK-NBR-50 NBR gasket 50 mm 12 380.03 4,560.36"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.97,
+        "evidence": "NBR gasket 50 mm"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "12 380.03 4,560.36"
+      },
+      "unit_price": {
+        "value": 380.03,
+        "confidence": 0.97,
+        "evidence": "380.03"
+      },
+      "line_total": {
+        "value": 4560.36,
+        "confidence": 0.97,
+        "evidence": "4,560.36"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-30-ZN",
+        "confidence": 0.97,
+        "evidence": "7 HX-M8-30-ZN Hex bolt M8x30, zinc plated 2 698.45 1,396.90"
+      },
+      "description": {
+        "value": "Hex bolt M8x30, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x30, zinc plated"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2 698.45 1,396.90"
+      },
+      "unit_price": {
+        "value": 698.45,
+        "confidence": 0.97,
+        "evidence": "698.45"
+      },
+      "line_total": {
+        "value": 1396.9,
+        "confidence": 0.97,
+        "evidence": "1,396.90"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.97,
+        "evidence": "8 MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 2 684.39 1,368.78"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.97,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2 684.39 1,368.78"
+      },
+      "unit_price": {
+        "value": 684.39,
+        "confidence": 0.97,
+        "evidence": "684.39"
+      },
+      "line_total": {
+        "value": 1368.78,
+        "confidence": 0.97,
+        "evidence": "1,368.78"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.97,
+        "evidence": "9 SNS-PT100-A PT100 temperature sensor class A 12 697.64 8,371.68"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.97,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "12 697.64 8,371.68"
+      },
+      "unit_price": {
+        "value": 697.64,
+        "confidence": 0.97,
+        "evidence": "697.64"
+      },
+      "line_total": {
+        "value": 8371.68,
+        "confidence": 0.97,
+        "evidence": "8,371.68"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.97,
+        "evidence": "10 RLY-24VDC-2CO Relay 24 V DC 2 CO 8 681.62 5,452.96"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.97,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 8.0,
+        "confidence": 0.97,
+        "evidence": "8 681.62 5,452.96"
+      },
+      "unit_price": {
+        "value": 681.62,
+        "confidence": 0.97,
+        "evidence": "681.62"
+      },
+      "line_total": {
+        "value": 5452.96,
+        "confidence": 0.97,
+        "evidence": "5,452.96"
+      }
+    },
+    {
+      "part_number": {
+        "value": "WSH-8.4-ZN",
+        "confidence": 0.97,
+        "evidence": "11 WSH-8.4-ZN Washer 8.4 mm, zinc plated 4 871.88 3,487.52"
+      },
+      "description": {
+        "value": "Washer 8.4 mm, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Washer 8.4 mm, zinc plated"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.97,
+        "evidence": "4 871.88 3,487.52"
+      },
+      "unit_price": {
+        "value": 871.88,
+        "confidence": 0.97,
+        "evidence": "871.88"
+      },
+      "line_total": {
+        "value": 3487.52,
+        "confidence": 0.97,
+        "evidence": "3,487.52"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.97,
+        "evidence": "12 CBL-NYY-3G2.5 Power cable NYY-J 3G2.5 (per m) 20 135.25 2,705.00"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 20.0,
+        "confidence": 0.97,
+        "evidence": "20 135.25 2,705.00"
+      },
+      "unit_price": {
+        "value": 135.25,
+        "confidence": 0.97,
+        "evidence": "135.25"
+      },
+      "line_total": {
+        "value": 2705.0,
+        "confidence": 0.97,
+        "evidence": "2,705.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6204-ZZ",
+        "confidence": 0.97,
+        "evidence": "13 BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 1 880.90 880.90"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-ZZ",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6204-ZZ"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.97,
+        "evidence": "1 880.90 880.90"
+      },
+      "unit_price": {
+        "value": 880.9,
+        "confidence": 0.97,
+        "evidence": "880.90"
+      },
+      "line_total": {
+        "value": 880.9,
+        "confidence": 0.97,
+        "evidence": "880.90"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CON-M12-8P",
+        "confidence": 0.97,
+        "evidence": "14 CON-M12-8P M12 connector 8-pin female 12 494.73 5,936.76"
+      },
+      "description": {
+        "value": "M12 connector 8-pin female",
+        "confidence": 0.97,
+        "evidence": "M12 connector 8-pin female"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "12 494.73 5,936.76"
+      },
+      "unit_price": {
+        "value": 494.73,
+        "confidence": 0.97,
+        "evidence": "494.73"
+      },
+      "line_total": {
+        "value": 5936.76,
+        "confidence": 0.97,
+        "evidence": "5,936.76"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT1000-B",
+        "confidence": 0.97,
+        "evidence": "15 SNS-PT1000-B PT1000 temperature sensor class B 40 336.19 13,447.60"
+      },
+      "description": {
+        "value": "PT1000 temperature sensor class B",
+        "confidence": 0.97,
+        "evidence": "PT1000 temperature sensor class B"
+      },
+      "quantity": {
+        "value": 40.0,
+        "confidence": 0.97,
+        "evidence": "40 336.19 13,447.60"
+      },
+      "unit_price": {
+        "value": 336.19,
+        "confidence": 0.97,
+        "evidence": "336.19"
+      },
+      "line_total": {
+        "value": 13447.6,
+        "confidence": 0.97,
+        "evidence": "13,447.60"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M10-40-A2",
+        "confidence": 0.97,
+        "evidence": "16 HX-M10-40-A2 Hex bolt M10x40, stainless A2 20 880.98 17,619.60"
+      },
+      "description": {
+        "value": "Hex bolt M10x40, stainless A2",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M10x40, stainless A2"
+      },
+      "quantity": {
+        "value": 20.0,
+        "confidence": 0.97,
+        "evidence": "20 880.98 17,619.60"
+      },
+      "unit_price": {
+        "value": 880.98,
+        "confidence": 0.97,
+        "evidence": "880.98"
+      },
+      "line_total": {
+        "value": 17619.6,
+        "confidence": 0.97,
+        "evidence": "17,619.60"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 131353.04,
+    "confidence": 0.97,
+    "evidence": "Subtotal 131,353.04"
+  },
+  "total": {
+    "value": 131353.04,
+    "confidence": 0.97,
+    "evidence": "Total 131,353.04"
+  }
+}

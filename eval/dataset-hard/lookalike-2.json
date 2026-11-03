@@ -1,0 +1,41 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Rhine Precision Parts GmbH",
+  "document_number": "905315252",
+  "document_date": "2026-03-21",
+  "currency": "EUR",
+  "subtotal": 2675.58,
+  "total": 3183.94,
+  "line_items": [
+    {
+      "part_number": "CON-M12-4P",
+      "quantity": 4,
+      "unit_price": 41.05,
+      "line_total": 164.2
+    },
+    {
+      "part_number": "CON-M12-8P",
+      "quantity": 4,
+      "unit_price": 68.3,
+      "line_total": 273.2
+    },
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 6,
+      "unit_price": 227.47,
+      "line_total": 1364.82
+    },
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 12,
+      "unit_price": 65.23,
+      "line_total": 782.76
+    },
+    {
+      "part_number": "VLV-BALL-DN32",
+      "quantity": 4,
+      "unit_price": 22.65,
+      "line_total": 90.6
+    }
+  ]
+}

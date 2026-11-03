@@ -1,0 +1,66 @@
+{
+  "model": "claude-haiku-5-5 (via Claude Code)",
+  "documents": 12,
+  "failed_documents": [],
+  "fields_scored": 232,
+  "field_accuracy": 1.0,
+  "review_rate": 0.0129,
+  "auto_accepted_accuracy": 1.0,
+  "error_catch_rate": 1.0,
+  "per_field": {
+    "currency": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 12
+    },
+    "document_date": {
+      "accuracy": 1.0,
+      "review_rate": 0.25,
+      "n": 12
+    },
+    "document_number": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 12
+    },
+    "line_total": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 40
+    },
+    "part_number": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 40
+    },
+    "quantity": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 40
+    },
+    "subtotal": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 12
+    },
+    "supplier_name": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 12
+    },
+    "total": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 12
+    },
+    "unit_price": {
+      "accuracy": 1.0,
+      "review_rate": 0.0,
+      "n": 40
+    }
+  },
+  "errors": [],
+  "mean_latency_ms": 13972,
+  "input_tokens": 193999,
+  "output_tokens": 23282
+}

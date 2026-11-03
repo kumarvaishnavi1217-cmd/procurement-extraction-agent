@@ -1,0 +1,35 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Apex Fasteners Ltd",
+  "document_number": "SI-33323",
+  "document_date": "2026-08-14",
+  "currency": "GBP",
+  "subtotal": 19142.38,
+  "total": 22970.86,
+  "line_items": [
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 2,
+      "unit_price": 2289.71,
+      "line_total": 4579.42
+    },
+    {
+      "part_number": "CBL-NYY-5G1.5",
+      "quantity": 2,
+      "unit_price": 3777.49,
+      "line_total": 7554.98
+    },
+    {
+      "part_number": "GSK-EPDM-50",
+      "quantity": 1,
+      "unit_price": 2551.45,
+      "line_total": 2551.45
+    },
+    {
+      "part_number": "MTR-1.1KW-4P",
+      "quantity": 3,
+      "unit_price": 1485.51,
+      "line_total": 4456.53
+    }
+  ]
+}

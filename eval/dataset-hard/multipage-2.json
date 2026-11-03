@@ -1,0 +1,107 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Sierra Components Inc.",
+  "document_number": "INV-358282",
+  "document_date": "2026-07-27",
+  "currency": "USD",
+  "subtotal": 131353.04,
+  "total": 131353.04,
+  "line_items": [
+    {
+      "part_number": "NUT-M8-ZN",
+      "quantity": 40,
+      "unit_price": 539.47,
+      "line_total": 21578.8
+    },
+    {
+      "part_number": "MTR-1.1KW-4P",
+      "quantity": 2,
+      "unit_price": 612.43,
+      "line_total": 1224.86
+    },
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 40,
+      "unit_price": 884.46,
+      "line_total": 35378.4
+    },
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 2,
+      "unit_price": 564.12,
+      "line_total": 1128.24
+    },
+    {
+      "part_number": "RLY-230VAC-2CO",
+      "quantity": 12,
+      "unit_price": 567.89,
+      "line_total": 6814.68
+    },
+    {
+      "part_number": "GSK-NBR-50",
+      "quantity": 12,
+      "unit_price": 380.03,
+      "line_total": 4560.36
+    },
+    {
+      "part_number": "HX-M8-30-ZN",
+      "quantity": 2,
+      "unit_price": 698.45,
+      "line_total": 1396.9
+    },
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 2,
+      "unit_price": 684.39,
+      "line_total": 1368.78
+    },
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 12,
+      "unit_price": 697.64,
+      "line_total": 8371.68
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 8,
+      "unit_price": 681.62,
+      "line_total": 5452.96
+    },
+    {
+      "part_number": "WSH-8.4-ZN",
+      "quantity": 4,
+      "unit_price": 871.88,
+      "line_total": 3487.52
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 20,
+      "unit_price": 135.25,
+      "line_total": 2705.0
+    },
+    {
+      "part_number": "BRG-6204-ZZ",
+      "quantity": 1,
+      "unit_price": 880.9,
+      "line_total": 880.9
+    },
+    {
+      "part_number": "CON-M12-8P",
+      "quantity": 12,
+      "unit_price": 494.73,
+      "line_total": 5936.76
+    },
+    {
+      "part_number": "SNS-PT1000-B",
+      "quantity": 40,
+      "unit_price": 336.19,
+      "line_total": 13447.6
+    },
+    {
+      "part_number": "HX-M10-40-A2",
+      "quantity": 20,
+      "unit_price": 880.98,
+      "line_total": 17619.6
+    }
+  ]
+}

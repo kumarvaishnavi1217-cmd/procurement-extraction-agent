@@ -1,6 +1,7 @@
 from functools import lru_cache
 from typing import Literal
 
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -25,6 +26,14 @@ class Settings(BaseSettings):
     max_upload_bytes: int = 20 * 1024 * 1024
 
     log_level: str = "INFO"
+
+    # Langfuse tracing (optional). Standard Langfuse variable names, without the PROCEX_ prefix.
+    langfuse_public_key: str | None = Field(default=None, validation_alias="LANGFUSE_PUBLIC_KEY")
+    langfuse_secret_key: str | None = Field(default=None, validation_alias="LANGFUSE_SECRET_KEY")
+    langfuse_base_url: str | None = Field(default=None, validation_alias="LANGFUSE_BASE_URL")
+    langfuse_environment: str | None = Field(default=None, validation_alias="LANGFUSE_TRACING_ENVIRONMENT")
+    # Langfuse dataset that collects documents a reviewer had to correct: production failures
+    langfuse_corrections_dataset: str = "procex-review-corrections"
 
 
 @lru_cache

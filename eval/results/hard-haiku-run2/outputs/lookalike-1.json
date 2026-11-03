@@ -1,0 +1,170 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Sierra Components Inc.",
+    "confidence": 0.97,
+    "evidence": "Sierra Components Inc."
+  },
+  "document_number": {
+    "value": "903256258",
+    "confidence": 0.97,
+    "evidence": "Billing document 903256258"
+  },
+  "document_date": {
+    "value": "2026-04-18",
+    "confidence": 0.95,
+    "evidence": "Date 04/18/2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "Total USD 8,035.14"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.97,
+        "evidence": "10 HX-M8-25-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated, DIN 933, 8.8, box of 100",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x25, zinc plated, DIN 933, 8.8, box of 100"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2 BOX"
+      },
+      "unit_price": {
+        "value": 19.05,
+        "confidence": 0.97,
+        "evidence": "19.05"
+      },
+      "line_total": {
+        "value": 38.1,
+        "confidence": 0.97,
+        "evidence": "38.10"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-30-ZN",
+        "confidence": 0.97,
+        "evidence": "20 HX-M8-30-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x30, zinc plated, DIN 933, 8.8, box of 100",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x30, zinc plated, DIN 933, 8.8, box of 100"
+      },
+      "quantity": {
+        "value": 6.0,
+        "confidence": 0.97,
+        "evidence": "6 BOX"
+      },
+      "unit_price": {
+        "value": 248.19,
+        "confidence": 0.97,
+        "evidence": "248.19"
+      },
+      "line_total": {
+        "value": 1489.14,
+        "confidence": 0.97,
+        "evidence": "1,489.14"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN32",
+        "confidence": 0.97,
+        "evidence": "30 VLV-BALL-DN32"
+      },
+      "description": {
+        "value": "Ball valve DN32 stainless, PN40, 2-piece, ISO 5211 F05",
+        "confidence": 0.97,
+        "evidence": "Ball valve DN32 stainless, PN40, 2-piece, ISO 5211 F05"
+      },
+      "quantity": {
+        "value": 6.0,
+        "confidence": 0.97,
+        "evidence": "6 EA"
+      },
+      "unit_price": {
+        "value": 70.57,
+        "confidence": 0.97,
+        "evidence": "70.57"
+      },
+      "line_total": {
+        "value": 423.42,
+        "confidence": 0.97,
+        "evidence": "423.42"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CON-M12-8P",
+        "confidence": 0.97,
+        "evidence": "40 CON-M12-8P"
+      },
+      "description": {
+        "value": "M12 connector 8-pin female, IP67, 5 m PUR cable",
+        "confidence": 0.97,
+        "evidence": "M12 connector 8-pin female, IP67, 5 m PUR cable"
+      },
+      "quantity": {
+        "value": 24.0,
+        "confidence": 0.97,
+        "evidence": "24 EA"
+      },
+      "unit_price": {
+        "value": 146.75,
+        "confidence": 0.97,
+        "evidence": "146.75"
+      },
+      "line_total": {
+        "value": 3522.0,
+        "confidence": 0.97,
+        "evidence": "3,522.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.97,
+        "evidence": "50 VLV-BALL-DN25"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless, PN40, 2-piece, ISO 5211 F05",
+        "confidence": 0.97,
+        "evidence": "Ball valve DN25 stainless, PN40, 2-piece, ISO 5211 F05"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "12 EA"
+      },
+      "unit_price": {
+        "value": 213.54,
+        "confidence": 0.97,
+        "evidence": "213.54"
+      },
+      "line_total": {
+        "value": 2562.48,
+        "confidence": 0.97,
+        "evidence": "2,562.48"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 8035.14,
+    "confidence": 0.97,
+    "evidence": "Net value 8,035.14"
+  },
+  "total": {
+    "value": 8035.14,
+    "confidence": 0.97,
+    "evidence": "Total USD 8,035.14"
+  }
+}

@@ -21,5 +21,9 @@ services:
       # "fixture" replays stored outputs for eval/dataset PDFs, no API key needed
       PROCEX_EXTRACTOR: ${PROCEX_EXTRACTOR:-claude}
       PROCEX_BUYER_NAMES: '["Meridian Manufacturing GmbH"]'
+      # optional tracing; a Langfuse on the host is http://host.docker.internal:3000 from inside the container
+      LANGFUSE_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:-}
+      LANGFUSE_SECRET_KEY: ${LANGFUSE_SECRET_KEY:-}
+      LANGFUSE_BASE_URL: ${LANGFUSE_BASE_URL:-}
     ports:
       - "8000:8000"

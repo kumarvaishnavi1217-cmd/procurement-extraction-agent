@@ -1,0 +1,35 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Keystone Electrical Supply Co.",
+  "document_number": "QT-43307",
+  "document_date": "2026-09-04",
+  "currency": "USD",
+  "subtotal": 55419.7,
+  "total": 55419.7,
+  "line_items": [
+    {
+      "part_number": "SNS-PT1000-B",
+      "quantity": 100,
+      "unit_price": 51.75,
+      "line_total": 5175.0
+    },
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 10,
+      "unit_price": 243.07,
+      "line_total": 2430.7
+    },
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 200,
+      "unit_price": 132.5,
+      "line_total": 26500.0
+    },
+    {
+      "part_number": "CON-M12-4P",
+      "quantity": 200,
+      "unit_price": 106.57,
+      "line_total": 21314.0
+    }
+  ]
+}

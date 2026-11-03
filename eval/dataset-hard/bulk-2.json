@@ -1,0 +1,47 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Baltic Hydraulics AB",
+  "document_number": "F2689106",
+  "document_date": "2026-06-28",
+  "currency": "SEK",
+  "subtotal": 51491.5,
+  "total": 64364.38,
+  "line_items": [
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 5000,
+      "unit_price": 0.8512,
+      "line_total": 4256.0
+    },
+    {
+      "part_number": "CON-M12-8P",
+      "quantity": 25000,
+      "unit_price": 0.5749,
+      "line_total": 14372.5
+    },
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 25000,
+      "unit_price": 0.4279,
+      "line_total": 10697.5
+    },
+    {
+      "part_number": "FLT-HYD-25U",
+      "quantity": 25000,
+      "unit_price": 0.6809,
+      "line_total": 17022.5
+    },
+    {
+      "part_number": "BRG-6204-ZZ",
+      "quantity": 5000,
+      "unit_price": 0.423,
+      "line_total": 2115.0
+    },
+    {
+      "part_number": "NUT-M8-ZN",
+      "quantity": 10000,
+      "unit_price": 0.3028,
+      "line_total": 3028.0
+    }
+  ]
+}

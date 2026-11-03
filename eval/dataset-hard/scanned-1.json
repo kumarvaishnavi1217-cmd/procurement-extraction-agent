@@ -1,0 +1,29 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Nordwerk Industrietechnik GmbH",
+  "document_number": "INV-2026-6622",
+  "document_date": "2026-02-22",
+  "currency": "EUR",
+  "subtotal": 7859.83,
+  "total": 9353.2,
+  "line_items": [
+    {
+      "part_number": "CON-M12-4P",
+      "quantity": 10,
+      "unit_price": 108.21,
+      "line_total": 1082.1
+    },
+    {
+      "part_number": "CBL-NYY-5G1.5",
+      "quantity": 25,
+      "unit_price": 246.87,
+      "line_total": 6171.75
+    },
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 2,
+      "unit_price": 302.99,
+      "line_total": 605.98
+    }
+  ]
+}

@@ -13,6 +13,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy import select, text
 from sqlalchemy.orm import Session
 
+from procex import tracing
 from procex.config import Settings, get_settings
 from procex.db import get_session, init_db
 from procex.extractor import ClaudeCodeExtractor, ClaudeExtractor, Extractor, FixtureExtractor
@@ -71,6 +72,7 @@ class DocumentOut(BaseModel):
     data: dict[str, Any] | None
     field_checks: dict[str, Any] | None
     usage: UsageOut | None
+    trace_id: str | None = Field(description="Langfuse trace of the extraction, if tracing is enabled")
     open_review_tasks: list[ReviewTaskOut]
 
     @classmethod
@@ -92,6 +94,7 @@ class DocumentOut(BaseModel):
             )
             if ex
             else None,
+            trace_id=doc.trace_id,
             open_review_tasks=[
                 ReviewTaskOut.model_validate(t, from_attributes=True)
                 for t in doc.review_tasks
@@ -113,6 +116,7 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     configure_logging(get_settings().log_level)
     init_db()
     yield
+    tracing.flush()
 
 
 app = FastAPI(title="Procurement Document Extraction Agent", version="0.1.0", lifespan=lifespan)

@@ -1,0 +1,35 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Keystone Electrical Supply Co.",
+  "document_number": "INV-2026-1158",
+  "document_date": "2026-04-21",
+  "currency": "USD",
+  "subtotal": 2792.48,
+  "total": 2792.48,
+  "line_items": [
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 2,
+      "unit_price": 307.76,
+      "line_total": 615.52
+    },
+    {
+      "part_number": "FLT-HYD-25U",
+      "quantity": 5,
+      "unit_price": 56.16,
+      "line_total": 280.8
+    },
+    {
+      "part_number": "NUT-M8-ZN",
+      "quantity": 2,
+      "unit_price": 401.85,
+      "line_total": 803.7
+    },
+    {
+      "part_number": "HX-M10-40-A2",
+      "quantity": 2,
+      "unit_price": 546.23,
+      "line_total": 1092.46
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Baltic Hydraulics AB",
+    "confidence": 0.97,
+    "evidence": "Baltic Hydraulics AB"
+  },
+  "document_number": {
+    "value": "INV-728126",
+    "confidence": 0.98,
+    "evidence": "Invoice No: INV-728126"
+  },
+  "document_date": {
+    "value": "2026-09-25",
+    "confidence": 0.97,
+    "evidence": "Date: 25.09.2026"
+  },
+  "currency": {
+    "value": "SEK",
+    "confidence": 0.97,
+    "evidence": "All amounts in SEK."
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "NUT-M8-ZN",
+        "confidence": 0.97,
+        "evidence": "1 NUT-M8-ZN Hex nut M8, zinc plated 1 722,93 722,93"
+      },
+      "description": {
+        "value": "Hex nut M8, zinc plated",
+        "confidence": 0.97,
+        "evidence": "1 NUT-M8-ZN Hex nut M8, zinc plated 1 722,93 722,93"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.97,
+        "evidence": "1 NUT-M8-ZN Hex nut M8, zinc plated 1 722,93 722,93"
+      },
+      "unit_price": {
+        "value": 722.93,
+        "confidence": 0.97,
+        "evidence": "1 NUT-M8-ZN Hex nut M8, zinc plated 1 722,93 722,93"
+      },
+      "line_total": {
+        "value": 722.93,
+        "confidence": 0.97,
+        "evidence": "1 NUT-M8-ZN Hex nut M8, zinc plated 1 722,93 722,93"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6204-ZZ",
+        "confidence": 0.97,
+        "evidence": "2 BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 20 728,88 14.577,60"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-ZZ",
+        "confidence": 0.97,
+        "evidence": "2 BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 20 728,88 14.577,60"
+      },
+      "quantity": {
+        "value": 20.0,
+        "confidence": 0.97,
+        "evidence": "2 BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 20 728,88 14.577,60"
+      },
+      "unit_price": {
+        "value": 728.88,
+        "confidence": 0.97,
+        "evidence": "2 BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 20 728,88 14.577,60"
+      },
+      "line_total": {
+        "value": 14577.6,
+        "confidence": 0.97,
+        "evidence": "2 BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 20 728,88 14.577,60"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.97,
+        "evidence": "3 HX-M8-25-ZN Hex bolt M8x25, zinc plated 2 405,32 810,64"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.97,
+        "evidence": "3 HX-M8-25-ZN Hex bolt M8x25, zinc plated 2 405,32 810,64"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "3 HX-M8-25-ZN Hex bolt M8x25, zinc plated 2 405,32 810,64"
+      },
+      "unit_price": {
+        "value": 405.32,
+        "confidence": 0.97,
+        "evidence": "3 HX-M8-25-ZN Hex bolt M8x25, zinc plated 2 405,32 810,64"
+      },
+      "line_total": {
+        "value": 810.64,
+        "confidence": 0.97,
+        "evidence": "3 HX-M8-25-ZN Hex bolt M8x25, zinc plated 2 405,32 810,64"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN32",
+        "confidence": 0.97,
+        "evidence": "4 VLV-BALL-DN32 Ball valve DN32 stainless 8 634,73 5.077,84"
+      },
+      "description": {
+        "value": "Ball valve DN32 stainless",
+        "confidence": 0.97,
+        "evidence": "4 VLV-BALL-DN32 Ball valve DN32 stainless 8 634,73 5.077,84"
+      },
+      "quantity": {
+        "value": 8.0,
+        "confidence": 0.97,
+        "evidence": "4 VLV-BALL-DN32 Ball valve DN32 stainless 8 634,73 5.077,84"
+      },
+      "unit_price": {
+        "value": 634.73,
+        "confidence": 0.97,
+        "evidence": "4 VLV-BALL-DN32 Ball valve DN32 stainless 8 634,73 5.077,84"
+      },
+      "line_total": {
+        "value": 5077.84,
+        "confidence": 0.97,
+        "evidence": "4 VLV-BALL-DN32 Ball valve DN32 stainless 8 634,73 5.077,84"
+      }
+    },
+    {
+      "part_number": {
+        "value": "WSH-8.4-ZN",
+        "confidence": 0.97,
+        "evidence": "5 WSH-8.4-ZN Washer 8.4 mm, zinc plated 2 403,53 807,06"
+      },
+      "description": {
+        "value": "Washer 8.4 mm, zinc plated",
+        "confidence": 0.97,
+        "evidence": "5 WSH-8.4-ZN Washer 8.4 mm, zinc plated 2 403,53 807,06"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "5 WSH-8.4-ZN Washer 8.4 mm, zinc plated 2 403,53 807,06"
+      },
+      "unit_price": {
+        "value": 403.53,
+        "confidence": 0.97,
+        "evidence": "5 WSH-8.4-ZN Washer 8.4 mm, zinc plated 2 403,53 807,06"
+      },
+      "line_total": {
+        "value": 807.06,
+        "confidence": 0.97,
+        "evidence": "5 WSH-8.4-ZN Washer 8.4 mm, zinc plated 2 403,53 807,06"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.97,
+        "evidence": "6 VLV-BALL-DN25 Ball valve DN25 stainless 8 586,02 4.688,16"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless",
+        "confidence": 0.97,
+        "evidence": "6 VLV-BALL-DN25 Ball valve DN25 stainless 8 586,02 4.688,16"
+      },
+      "quantity": {
+        "value": 8.0,
+        "confidence": 0.97,
+        "evidence": "6 VLV-BALL-DN25 Ball valve DN25 stainless 8 586,02 4.688,16"
+      },
+      "unit_price": {
+        "value": 586.02,
+        "confidence": 0.97,
+        "evidence": "6 VLV-BALL-DN25 Ball valve DN25 stainless 8 586,02 4.688,16"
+      },
+      "line_total": {
+        "value": 4688.16,
+        "confidence": 0.97,
+        "evidence": "6 VLV-BALL-DN25 Ball valve DN25 stainless 8 586,02 4.688,16"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-230VAC-2CO",
+        "confidence": 0.97,
+        "evidence": "7 RLY-230VAC-2CO Relay 230 V AC 2 CO 12 17,64 211,68"
+      },
+      "description": {
+        "value": "Relay 230 V AC 2 CO",
+        "confidence": 0.97,
+        "evidence": "7 RLY-230VAC-2CO Relay 230 V AC 2 CO 12 17,64 211,68"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "7 RLY-230VAC-2CO Relay 230 V AC 2 CO 12 17,64 211,68"
+      },
+      "unit_price": {
+        "value": 17.64,
+        "confidence": 0.97,
+        "evidence": "7 RLY-230VAC-2CO Relay 230 V AC 2 CO 12 17,64 211,68"
+      },
+      "line_total": {
+        "value": 211.68,
+        "confidence": 0.97,
+        "evidence": "7 RLY-230VAC-2CO Relay 230 V AC 2 CO 12 17,64 211,68"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT1000-B",
+        "confidence": 0.97,
+        "evidence": "8 SNS-PT1000-B PT1000 temperature sensor class B 12 577,63 6.931,56"
+      },
+      "description": {
+        "value": "PT1000 temperature sensor class B",
+        "confidence": 0.97,
+        "evidence": "8 SNS-PT1000-B PT1000 temperature sensor class B 12 577,63 6.931,56"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "8 SNS-PT1000-B PT1000 temperature sensor class B 12 577,63 6.931,56"
+      },
+      "unit_price": {
+        "value": 577.63,
+        "confidence": 0.97,
+        "evidence": "8 SNS-PT1000-B PT1000 temperature sensor class B 12 577,63 6.931,56"
+      },
+      "line_total": {
+        "value": 6931.56,
+        "confidence": 0.97,
+        "evidence": "8 SNS-PT1000-B PT1000 temperature sensor class B 12 577,63 6.931,56"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-EPDM-50",
+        "confidence": 0.97,
+        "evidence": "9 GSK-EPDM-50 EPDM gasket 50 mm 8 204,25 1.634,00"
+      },
+      "description": {
+        "value": "EPDM gasket 50 mm",
+        "confidence": 0.97,
+        "evidence": "9 GSK-EPDM-50 EPDM gasket 50 mm 8 204,25 1.634,00"
+      },
+      "quantity": {
+        "value": 8.0,
+        "confidence": 0.97,
+        "evidence": "9 GSK-EPDM-50 EPDM gasket 50 mm 8 204,25 1.634,00"
+      },
+      "unit_price": {
+        "value": 204.25,
+        "confidence": 0.97,
+        "evidence": "9 GSK-EPDM-50 EPDM gasket 50 mm 8 204,25 1.634,00"
+      },
+      "line_total": {
+        "value": 1634.0,
+        "confidence": 0.97,
+        "evidence": "9 GSK-EPDM-50 EPDM gasket 50 mm 8 204,25 1.634,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-25U",
+        "confidence": 0.97,
+        "evidence": "10 FLT-HYD-25U Hydraulic filter element 25 micron 4 526,70 2.106,80"
+      },
+      "description": {
+        "value": "Hydraulic filter element 25 micron",
+        "confidence": 0.97,
+        "evidence": "10 FLT-HYD-25U Hydraulic filter element 25 micron 4 526,70 2.106,80"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.97,
+        "evidence": "10 FLT-HYD-25U Hydraulic filter element 25 micron 4 526,70 2.106,80"
+      },
+      "unit_price": {
+        "value": 526.7,
+        "confidence": 0.97,
+        "evidence": "10 FLT-HYD-25U Hydraulic filter element 25 micron 4 526,70 2.106,80"
+      },
+      "line_total": {
+        "value": 2106.8,
+        "confidence": 0.97,
+        "evidence": "10 FLT-HYD-25U Hydraulic filter element 25 micron 4 526,70 2.106,80"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.97,
+        "evidence": "11 MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 2 537,92 1.075,84"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.97,
+        "evidence": "11 MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 2 537,92 1.075,84"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "11 MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 2 537,92 1.075,84"
+      },
+      "unit_price": {
+        "value": 537.92,
+        "confidence": 0.97,
+        "evidence": "11 MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 2 537,92 1.075,84"
+      },
+      "line_total": {
+        "value": 1075.84,
+        "confidence": 0.97,
+        "evidence": "11 MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 2 537,92 1.075,84"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-5G1.5",
+        "confidence": 0.97,
+        "evidence": "12 CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 8 18,01 144,08"
+      },
+      "description": {
+        "value": "Power cable NYY-J 5G1.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "12 CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 8 18,01 144,08"
+      },
+      "quantity": {
+        "value": 8.0,
+        "confidence": 0.97,
+        "evidence": "12 CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 8 18,01 144,08"
+      },
+      "unit_price": {
+        "value": 18.01,
+        "confidence": 0.97,
+        "evidence": "12 CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 8 18,01 144,08"
+      },
+      "line_total": {
+        "value": 144.08,
+        "confidence": 0.97,
+        "evidence": "12 CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 8 18,01 144,08"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M10-40-A2",
+        "confidence": 0.97,
+        "evidence": "13 HX-M10-40-A2 Hex bolt M10x40, stainless A2 40 174,87 6.994,80"
+      },
+      "description": {
+        "value": "Hex bolt M10x40, stainless A2",
+        "confidence": 0.97,
+        "evidence": "13 HX-M10-40-A2 Hex bolt M10x40, stainless A2 40 174,87 6.994,80"
+      },
+      "quantity": {
+        "value": 40.0,
+        "confidence": 0.97,
+        "evidence": "13 HX-M10-40-A2 Hex bolt M10x40, stainless A2 40 174,87 6.994,80"
+      },
+      "unit_price": {
+        "value": 174.87,
+        "confidence": 0.97,
+        "evidence": "13 HX-M10-40-A2 Hex bolt M10x40, stainless A2 40 174,87 6.994,80"
+      },
+      "line_total": {
+        "value": 6994.8,
+        "confidence": 0.97,
+        "evidence": "13 HX-M10-40-A2 Hex bolt M10x40, stainless A2 40 174,87 6.994,80"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-NBR-50",
+        "confidence": 0.97,
+        "evidence": "14 GSK-NBR-50 NBR gasket 50 mm 40 342,59 13.703,60"
+      },
+      "description": {
+        "value": "NBR gasket 50 mm",
+        "confidence": 0.97,
+        "evidence": "14 GSK-NBR-50 NBR gasket 50 mm 40 342,59 13.703,60"
+      },
+      "quantity": {
+        "value": 40.0,
+        "confidence": 0.97,
+        "evidence": "14 GSK-NBR-50 NBR gasket 50 mm 40 342,59 13.703,60"
+      },
+      "unit_price": {
+        "value": 342.59,
+        "confidence": 0.97,
+        "evidence": "14 GSK-NBR-50 NBR gasket 50 mm 40 342,59 13.703,60"
+      },
+      "line_total": {
+        "value": 13703.6,
+        "confidence": 0.97,
+        "evidence": "14 GSK-NBR-50 NBR gasket 50 mm 40 342,59 13.703,60"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CON-M12-4P",
+        "confidence": 0.97,
+        "evidence": "15 CON-M12-4P M12 connector 4-pin female 2 539,88 1.079,76"
+      },
+      "description": {
+        "value": "M12 connector 4-pin female",
+        "confidence": 0.97,
+        "evidence": "15 CON-M12-4P M12 connector 4-pin female 2 539,88 1.079,76"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "15 CON-M12-4P M12 connector 4-pin female 2 539,88 1.079,76"
+      },
+      "unit_price": {
+        "value": 539.88,
+        "confidence": 0.97,
+        "evidence": "15 CON-M12-4P M12 connector 4-pin female 2 539,88 1.079,76"
+      },
+      "line_total": {
+        "value": 1079.76,
+        "confidence": 0.97,
+        "evidence": "15 CON-M12-4P M12 connector 4-pin female 2 539,88 1.079,76"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.97,
+        "evidence": "16 BRG-6205-2RS Deep groove ball bearing 6205-2RS 4 271,36 1.085,44"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS",
+        "confidence": 0.97,
+        "evidence": "16 BRG-6205-2RS Deep groove ball bearing 6205-2RS 4 271,36 1.085,44"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.97,
+        "evidence": "16 BRG-6205-2RS Deep groove ball bearing 6205-2RS 4 271,36 1.085,44"
+      },
+      "unit_price": {
+        "value": 271.36,
+        "confidence": 0.97,
+        "evidence": "16 BRG-6205-2RS Deep groove ball bearing 6205-2RS 4 271,36 1.085,44"
+      },
+      "line_total": {
+        "value": 1085.44,
+        "confidence": 0.97,
+        "evidence": "16 BRG-6205-2RS Deep groove ball bearing 6205-2RS 4 271,36 1.085,44"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 61651.79,
+    "confidence": 0.97,
+    "evidence": "Subtotal 61.651,79"
+  },
+  "total": {
+    "value": 77064.74,
+    "confidence": 0.97,
+    "evidence": "Total 77.064,74"
+  }
+}

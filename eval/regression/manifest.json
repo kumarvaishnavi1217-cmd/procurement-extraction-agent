@@ -1,0 +1,50 @@
+{
+  "dataset-hard-bulk-2-haiku": {
+    "source": "eval:haiku",
+    "origin": "eval/dataset-hard/bulk-2.pdf",
+    "promoted_at": "2026-11-03",
+    "buyer_names": [
+      "Meridian Manufacturing GmbH"
+    ],
+    "review_threshold": 0.8,
+    "errors": [
+      {
+        "field": "line_items[0].quantity",
+        "expected": 5000,
+        "actual": 5.0,
+        "caught": true
+      },
+      {
+        "field": "line_items[1].quantity",
+        "expected": 25000,
+        "actual": 25.0,
+        "caught": true
+      },
+      {
+        "field": "line_items[2].quantity",
+        "expected": 25000,
+        "actual": 25.0,
+        "caught": true
+      },
+      {
+        "field": "line_items[3].quantity",
+        "expected": 25000,
+        "actual": 25.0,
+        "caught": true
+      },
+      {
+        "field": "line_items[4].quantity",
+        "expected": 5000,
+        "actual": 5.0,
+        "caught": true
+      },
+      {
+        "field": "line_items[5].quantity",
+        "expected": 10000,
+        "actual": 10.0,
+        "caught": true
+      }
+    ],
+    "known_gap": false
+  }
+}

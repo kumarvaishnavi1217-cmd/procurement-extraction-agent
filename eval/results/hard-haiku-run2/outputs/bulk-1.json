@@ -1,0 +1,143 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Rhine Precision Parts GmbH",
+    "confidence": 0.97,
+    "evidence": "Rhine Precision Parts GmbH"
+  },
+  "document_number": {
+    "value": "F2669676",
+    "confidence": 0.97,
+    "evidence": "Invoice no. F2669676"
+  },
+  "document_date": {
+    "value": "2026-08-18",
+    "confidence": 0.97,
+    "evidence": "Invoice date 18.08.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "Total EUR 26.888,23"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "GSK-EPDM-50",
+        "confidence": 0.97,
+        "evidence": "GSK-EPDM-50"
+      },
+      "description": {
+        "value": "EPDM gasket 50 mm",
+        "confidence": 0.95,
+        "evidence": "EPDM gasket 50 mm"
+      },
+      "quantity": {
+        "value": 10000.0,
+        "confidence": 0.95,
+        "evidence": "10.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.8469,
+        "confidence": 0.97,
+        "evidence": "0,8469"
+      },
+      "line_total": {
+        "value": 8469.0,
+        "confidence": 0.97,
+        "evidence": "8.469,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.97,
+        "evidence": "FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.95,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 1500.0,
+        "confidence": 0.95,
+        "evidence": "1.500 pcs"
+      },
+      "unit_price": {
+        "value": 0.1691,
+        "confidence": 0.97,
+        "evidence": "0,1691"
+      },
+      "line_total": {
+        "value": 253.65,
+        "confidence": 0.97,
+        "evidence": "253,65"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.97,
+        "evidence": "SNS-PT100-A"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.95,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 25000.0,
+        "confidence": 0.95,
+        "evidence": "25.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.0133,
+        "confidence": 0.97,
+        "evidence": "0,0133"
+      },
+      "line_total": {
+        "value": 332.5,
+        "confidence": 0.97,
+        "evidence": "332,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.97,
+        "evidence": "BRG-6205-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS",
+        "confidence": 0.95,
+        "evidence": "Deep groove ball bearing 6205-2RS"
+      },
+      "quantity": {
+        "value": 25000.0,
+        "confidence": 0.95,
+        "evidence": "25.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.5416,
+        "confidence": 0.97,
+        "evidence": "0,5416"
+      },
+      "line_total": {
+        "value": 13540.0,
+        "confidence": 0.97,
+        "evidence": "13.540,00"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 22595.15,
+    "confidence": 0.97,
+    "evidence": "Net amount 22.595,15"
+  },
+  "total": {
+    "value": 26888.23,
+    "confidence": 0.97,
+    "evidence": "Total EUR 26.888,23"
+  }
+}

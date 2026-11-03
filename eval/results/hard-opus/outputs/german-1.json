@@ -1,0 +1,197 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Nordwerk Industrietechnik GmbH",
+    "confidence": 0.98,
+    "evidence": "Nordwerk Industrietechnik GmbH · Hafenstrasse 12, 20457 Hamburg"
+  },
+  "document_number": {
+    "value": "RE-26-18886",
+    "confidence": 0.98,
+    "evidence": "Rechnungsnummer: RE-26-18886"
+  },
+  "document_date": {
+    "value": "2026-09-15",
+    "confidence": 0.97,
+    "evidence": "Rechnungsdatum: 15.09.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "Rechnungsbetrag 20.400,94 €"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "FLT-HYD-10U",
+        "confidence": 0.97,
+        "evidence": "FLT-HYD-10U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 10 micron",
+        "confidence": 0.97,
+        "evidence": "Hydraulic filter element 10 micron"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2 Stk"
+      },
+      "unit_price": {
+        "value": 245.65,
+        "confidence": 0.97,
+        "evidence": "245,65"
+      },
+      "line_total": {
+        "value": 491.3,
+        "confidence": 0.97,
+        "evidence": "491,30"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.97,
+        "evidence": "HX-M8-25-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x25, zinc plated"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.97,
+        "evidence": "10 Stk"
+      },
+      "unit_price": {
+        "value": 581.0,
+        "confidence": 0.95,
+        "evidence": "581,00"
+      },
+      "line_total": {
+        "value": 5810.0,
+        "confidence": 0.95,
+        "evidence": "5.810,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.97,
+        "evidence": "BRG-6205-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6205-2RS"
+      },
+      "quantity": {
+        "value": 50.0,
+        "confidence": 0.97,
+        "evidence": "50 Stk"
+      },
+      "unit_price": {
+        "value": 156.53,
+        "confidence": 0.97,
+        "evidence": "156,53"
+      },
+      "line_total": {
+        "value": 7826.5,
+        "confidence": 0.97,
+        "evidence": "7.826,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.97,
+        "evidence": "MTR-0.75KW-4P"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.97,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.97,
+        "evidence": "1 Stk"
+      },
+      "unit_price": {
+        "value": 431.84,
+        "confidence": 0.97,
+        "evidence": "431,84"
+      },
+      "line_total": {
+        "value": 431.84,
+        "confidence": 0.97,
+        "evidence": "431,84"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-3G2.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.95,
+        "evidence": "4 Stk"
+      },
+      "unit_price": {
+        "value": 591.4,
+        "confidence": 0.95,
+        "evidence": "591,40"
+      },
+      "line_total": {
+        "value": 2365.6,
+        "confidence": 0.97,
+        "evidence": "2.365,60"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-25U",
+        "confidence": 0.97,
+        "evidence": "FLT-HYD-25U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 25 micron",
+        "confidence": 0.97,
+        "evidence": "Hydraulic filter element 25 micron"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.97,
+        "evidence": "1 Stk"
+      },
+      "unit_price": {
+        "value": 218.41,
+        "confidence": 0.97,
+        "evidence": "218,41"
+      },
+      "line_total": {
+        "value": 218.41,
+        "confidence": 0.97,
+        "evidence": "218,41"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 17143.65,
+    "confidence": 0.98,
+    "evidence": "Nettobetrag 17.143,65 €"
+  },
+  "total": {
+    "value": 20400.94,
+    "confidence": 0.98,
+    "evidence": "Rechnungsbetrag 20.400,94 €"
+  }
+}

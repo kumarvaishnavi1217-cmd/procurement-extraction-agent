@@ -1,0 +1,170 @@
+{
+  "document_type": "quote",
+  "supplier_name": {
+    "value": "Sierra Components Inc.",
+    "confidence": 0.85,
+    "evidence": "Sierra Components Inc."
+  },
+  "document_number": {
+    "value": "QT-41280",
+    "confidence": 0.97,
+    "evidence": "QT-41280"
+  },
+  "document_date": {
+    "value": "2026-06-02",
+    "confidence": 0.88,
+    "evidence": "06/02/2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "Quote Total USD"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.97,
+        "evidence": "BRG-6205-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6205-2RS"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.96,
+        "evidence": "25"
+      },
+      "unit_price": {
+        "value": 129.04,
+        "confidence": 0.97,
+        "evidence": "129.04"
+      },
+      "line_total": {
+        "value": 3226.0,
+        "confidence": 0.97,
+        "evidence": "3,226.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-5G1.5",
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-5G1.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 5G1.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "Power cable NYY-J 5G1.5 (per m)"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.96,
+        "evidence": "10"
+      },
+      "unit_price": {
+        "value": 88.22,
+        "confidence": 0.97,
+        "evidence": "88.22"
+      },
+      "line_total": {
+        "value": 882.2,
+        "confidence": 0.97,
+        "evidence": "882.20"
+      }
+    },
+    {
+      "part_number": {
+        "value": "WSH-8.4-ZN",
+        "confidence": 0.97,
+        "evidence": "WSH-8.4-ZN"
+      },
+      "description": {
+        "value": "Washer 8.4 mm, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Washer 8.4 mm, zinc plated"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.96,
+        "evidence": "10"
+      },
+      "unit_price": {
+        "value": 133.92,
+        "confidence": 0.97,
+        "evidence": "133.92"
+      },
+      "line_total": {
+        "value": 1339.2,
+        "confidence": 0.97,
+        "evidence": "1,339.20"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-EPDM-50",
+        "confidence": 0.97,
+        "evidence": "GSK-EPDM-50"
+      },
+      "description": {
+        "value": "EPDM gasket 50 mm",
+        "confidence": 0.97,
+        "evidence": "EPDM gasket 50 mm"
+      },
+      "quantity": {
+        "value": 50.0,
+        "confidence": 0.96,
+        "evidence": "50"
+      },
+      "unit_price": {
+        "value": 70.19,
+        "confidence": 0.97,
+        "evidence": "70.19"
+      },
+      "line_total": {
+        "value": 3509.5,
+        "confidence": 0.97,
+        "evidence": "3,509.50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M10-40-A2",
+        "confidence": 0.97,
+        "evidence": "HX-M10-40-A2"
+      },
+      "description": {
+        "value": "Hex bolt M10x40, stainless A2",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M10x40, stainless A2"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.96,
+        "evidence": "25"
+      },
+      "unit_price": {
+        "value": 87.21,
+        "confidence": 0.97,
+        "evidence": "87.21"
+      },
+      "line_total": {
+        "value": 2180.25,
+        "confidence": 0.97,
+        "evidence": "2,180.25"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 11137.15,
+    "confidence": 0.96,
+    "evidence": "Merchandise 11,137.15"
+  },
+  "total": {
+    "value": 11137.15,
+    "confidence": 0.93,
+    "evidence": "Quote Total USD 11,137.15"
+  }
+}

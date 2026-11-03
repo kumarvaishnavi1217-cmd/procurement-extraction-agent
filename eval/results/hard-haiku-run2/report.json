@@ -1,0 +1,109 @@
+{
+  "model": "claude-haiku-5-5 (via Claude Code)",
+  "documents": 16,
+  "failed_documents": [],
+  "fields_scored": 472,
+  "field_accuracy": 0.9873,
+  "review_rate": 0.125,
+  "auto_accepted_accuracy": 1.0,
+  "error_catch_rate": 1.0,
+  "per_field": {
+    "currency": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "document_date": {
+      "accuracy": 1.0,
+      "review_rate": 0.1875,
+      "n": 16
+    },
+    "document_number": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "line_total": {
+      "accuracy": 1.0,
+      "review_rate": 0.1383,
+      "n": 94
+    },
+    "part_number": {
+      "accuracy": 1.0,
+      "review_rate": 0.0745,
+      "n": 94
+    },
+    "quantity": {
+      "accuracy": 0.9362,
+      "review_rate": 0.1383,
+      "n": 94
+    },
+    "subtotal": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "supplier_name": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "total": {
+      "accuracy": 1.0,
+      "review_rate": 0.125,
+      "n": 16
+    },
+    "unit_price": {
+      "accuracy": 1.0,
+      "review_rate": 0.1383,
+      "n": 94
+    }
+  },
+  "errors": [
+    {
+      "document": "bulk-2.pdf",
+      "field": "line_items[0].quantity",
+      "expected": 5000,
+      "actual": 5.0,
+      "flagged": true
+    },
+    {
+      "document": "bulk-2.pdf",
+      "field": "line_items[1].quantity",
+      "expected": 25000,
+      "actual": 25.0,
+      "flagged": true
+    },
+    {
+      "document": "bulk-2.pdf",
+      "field": "line_items[2].quantity",
+      "expected": 25000,
+      "actual": 25.0,
+      "flagged": true
+    },
+    {
+      "document": "bulk-2.pdf",
+      "field": "line_items[3].quantity",
+      "expected": 25000,
+      "actual": 25.0,
+      "flagged": true
+    },
+    {
+      "document": "bulk-2.pdf",
+      "field": "line_items[4].quantity",
+      "expected": 5000,
+      "actual": 5.0,
+      "flagged": true
+    },
+    {
+      "document": "bulk-2.pdf",
+      "field": "line_items[5].quantity",
+      "expected": 10000,
+      "actual": 10.0,
+      "flagged": true
+    }
+  ],
+  "mean_latency_ms": 28606,
+  "input_tokens": 264190,
+  "output_tokens": 44912
+}
