@@ -1,0 +1,197 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Baltic Hydraulics AB",
+    "confidence": 0.97,
+    "evidence": "Baltic Hydraulics AB"
+  },
+  "document_number": {
+    "value": "F2689106",
+    "confidence": 0.97,
+    "evidence": "Invoice no. F2689106"
+  },
+  "document_date": {
+    "value": "2026-06-28",
+    "confidence": 0.95,
+    "evidence": "Invoice date 28.06.2026"
+  },
+  "currency": {
+    "value": "SEK",
+    "confidence": 0.97,
+    "evidence": "Total SEK 64.364,38"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "MTR-0.75KW-4P",
+        "confidence": 0.95,
+        "evidence": "MTR-0.75KW-4P Induction motor 0.75 kW 4-pole 5.000 pcs 0,8512 4.256,00"
+      },
+      "description": {
+        "value": "Induction motor 0.75 kW 4-pole",
+        "confidence": 0.95,
+        "evidence": "Induction motor 0.75 kW 4-pole"
+      },
+      "quantity": {
+        "value": 5.0,
+        "confidence": 0.9,
+        "evidence": "5.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.8512,
+        "confidence": 0.95,
+        "evidence": "0,8512"
+      },
+      "line_total": {
+        "value": 4256.0,
+        "confidence": 0.95,
+        "evidence": "4.256,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CON-M12-8P",
+        "confidence": 0.95,
+        "evidence": "CON-M12-8P M12 connector 8-pin female 25.000 pcs 0,5749 14.372,50"
+      },
+      "description": {
+        "value": "M12 connector 8-pin female",
+        "confidence": 0.95,
+        "evidence": "M12 connector 8-pin female"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.9,
+        "evidence": "25.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.5749,
+        "confidence": 0.95,
+        "evidence": "0,5749"
+      },
+      "line_total": {
+        "value": 14372.5,
+        "confidence": 0.95,
+        "evidence": "14.372,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.95,
+        "evidence": "SNS-PT100-A PT100 temperature sensor class A 25.000 pcs 0,4279 10.697,50"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.95,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.9,
+        "evidence": "25.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.4279,
+        "confidence": 0.95,
+        "evidence": "0,4279"
+      },
+      "line_total": {
+        "value": 10697.5,
+        "confidence": 0.95,
+        "evidence": "10.697,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-25U",
+        "confidence": 0.95,
+        "evidence": "FLT-HYD-25U Hydraulic filter element 25 micron 25.000 pcs 0,6809 17.022,50"
+      },
+      "description": {
+        "value": "Hydraulic filter element 25 micron",
+        "confidence": 0.95,
+        "evidence": "Hydraulic filter element 25 micron"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.9,
+        "evidence": "25.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.6809,
+        "confidence": 0.95,
+        "evidence": "0,6809"
+      },
+      "line_total": {
+        "value": 17022.5,
+        "confidence": 0.95,
+        "evidence": "17.022,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6204-ZZ",
+        "confidence": 0.95,
+        "evidence": "BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 5.000 pcs 0,4230 2.115,00"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-ZZ",
+        "confidence": 0.95,
+        "evidence": "Deep groove ball bearing 6204-ZZ"
+      },
+      "quantity": {
+        "value": 5.0,
+        "confidence": 0.9,
+        "evidence": "5.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.423,
+        "confidence": 0.95,
+        "evidence": "0,4230"
+      },
+      "line_total": {
+        "value": 2115.0,
+        "confidence": 0.95,
+        "evidence": "2.115,00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "NUT-M8-ZN",
+        "confidence": 0.95,
+        "evidence": "NUT-M8-ZN Hex nut M8, zinc plated 10.000 pcs 0,3028 3.028,00"
+      },
+      "description": {
+        "value": "Hex nut M8, zinc plated",
+        "confidence": 0.95,
+        "evidence": "Hex nut M8, zinc plated"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.9,
+        "evidence": "10.000 pcs"
+      },
+      "unit_price": {
+        "value": 0.3028,
+        "confidence": 0.95,
+        "evidence": "0,3028"
+      },
+      "line_total": {
+        "value": 3028.0,
+        "confidence": 0.95,
+        "evidence": "3.028,00"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 51491.5,
+    "confidence": 0.95,
+    "evidence": "Net amount 51.491,50"
+  },
+  "total": {
+    "value": 64364.38,
+    "confidence": 0.95,
+    "evidence": "Total SEK 64.364,38"
+  }
+}

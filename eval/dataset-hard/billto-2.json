@@ -1,0 +1,41 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Keystone Electrical Supply Co.",
+  "document_number": "290208",
+  "document_date": "2026-06-14",
+  "currency": "USD",
+  "subtotal": 36296.5,
+  "total": 38837.26,
+  "line_items": [
+    {
+      "part_number": "CON-M12-8P",
+      "quantity": 2,
+      "unit_price": 117.81,
+      "line_total": 235.62
+    },
+    {
+      "part_number": "BRG-6204-ZZ",
+      "quantity": 10,
+      "unit_price": 82.91,
+      "line_total": 829.1
+    },
+    {
+      "part_number": "CBL-NYY-3G2.5",
+      "quantity": 2,
+      "unit_price": 126.89,
+      "line_total": 253.78
+    },
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 100,
+      "unit_price": 297.46,
+      "line_total": 29746.0
+    },
+    {
+      "part_number": "NUT-M8-ZN",
+      "quantity": 25,
+      "unit_price": 209.28,
+      "line_total": 5232.0
+    }
+  ]
+}

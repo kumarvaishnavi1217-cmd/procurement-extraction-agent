@@ -1,8 +1,8 @@
 # Procurement Document Extraction Agent
 
-An LLM pipeline that turns unstructured supplier **quotes and invoices (PDF)** into a validated schema: supplier, document number, date, currency, and line items with **part number, quantity, unit price** and totals. Values the system can't trust go to a **human-review queue**, field by field. An **evaluation harness** measures field-level accuracy on a labelled document set.
+An LLM pipeline that turns unstructured supplier **quotes and invoices (PDF)** into a validated schema: supplier, document number, date, currency, and line items with **part number, quantity, unit price** and totals. Values the system can't trust go to a **human-review queue**, field by field. An **evaluation harness** measures field-level accuracy on labelled document sets, and **Langfuse** traces every extraction and closes the loop: failures from evaluation runs and reviewer corrections become regression tests.
 
-Python 3.12 · Claude API (`anthropic` SDK, structured outputs) · FastAPI · PostgreSQL · SQLAlchemy 2 · pytest + Testcontainers
+Python 3.12 · Claude API (`anthropic` SDK, structured outputs) · FastAPI · PostgreSQL · SQLAlchemy 2 · Langfuse · pytest + Testcontainers
 
 ## How it works
 
@@ -10,14 +10,17 @@ Python 3.12 · Claude API (`anthropic` SDK, structured outputs) · FastAPI · Po
 PDF ──► POST /documents
           │  size / type checks, SHA-256 dedupe
           ▼
-      Claude (native PDF input, structured output → Pydantic schema)
-          │  every field = value + confidence + verbatim evidence
-          ▼
-      Validation rules  ──►  per-field confidence
-          │                        │
+      Claude (native PDF input, structured output → Pydantic schema)      ┐
+          │  every field = value + confidence + verbatim evidence         │ Langfuse trace:
+          ▼                                                               │  extract   (generation)
+      Validation rules  ──►  per-field confidence                         │  validate  (guardrail)
+          │                        │                                      ┘
           ▼                        ▼
    PostgreSQL               below threshold ──► review_tasks (human queue)
    documents / extractions                       POST /review-tasks/{id}/resolve
+                                                   │  score "human_review" on the trace
+                                                   ▼
+                                    corrected document ──► Langfuse dataset ──► procex-promote ──► regression test
 ```
 
 **Why not trust the model's confidence?** LLM self-reported confidence is poorly calibrated. Each field also carries an `evidence` snippet copied from the document, and deterministic rules cap the confidence when something doesn't add up:
@@ -58,7 +61,52 @@ Offline result on the fixtures:
 | error catch rate | 33.3 % | **100 %** |
 | review rate | 3.9 % | 6.5 % |
 
-These numbers show that the validation rules and the scoring work. They are **not** a measurement of Claude's accuracy. For that, run `procex-eval --extractor claude`, or the `live-eval` CI job with an `ANTHROPIC_API_KEY` secret, ideally on real (anonymised) documents.
+These numbers show that the validation rules and the scoring work. They are **not** a measurement of Claude's accuracy. That is what the live runs below are for.
+
+### Live results
+
+Run with `--extractor claude-code` (the Claude Code CLI on a subscription). It sends the same prompt and schema as the API extractor, but these numbers were not measured through the API. Reports and raw model outputs are in [`eval/results/`](eval/results).
+
+The clean set is **saturated**: Opus 5.5 and Haiku 5.5 both extract all 232 fields correctly. So `eval/generate_hard_dataset.py` builds `eval/dataset-hard`: 16 documents, each built around a layout that breaks extraction in practice. They include a German DIN 5008 invoice where the supplier appears only in the small sender line and footer, among seven reference numbers. Others put the buyer in large print with the supplier only in a "remit to" footer. There are 16-line invoices with "carried forward" sums across two pages, `10.000 pcs` quantities with four-decimal prices, image-only scans, ambiguous US dates next to RFQ dates, and a deposit deducted after the total, so the biggest bold number is the balance due. The last case has near-identical part numbers next to SAP position numbers.
+
+| `eval/dataset-hard`, 472 fields | field accuracy | auto-accepted accuracy | error catch rate | review rate |
+|---|---|---|---|---|
+| Opus 5.5 | 100 % | 100 % | n/a (no errors) | 8.5 % |
+| Haiku 5.5 | 98.7 % | 100 % | **100 %** (6 / 6) | 12.7 % |
+
+- **Haiku reads EU thousand separators as decimals.** On `bulk-2` it extracted `5.000 pcs` as 5 and `25.000` as 25 on all six lines, identically in two runs. Every one of those values was sent to review, because `qty × unit price` no longer matched the line total. This case is now a regression test (see below).
+- **Opus's review rate is entirely the two scanned PDFs.** With no text layer there is nothing to check evidence against, so every field is reviewed by design, even though all of them were right. OCR-based grounding would remove most of that review load.
+- **No model fell for the deposit, bill-to or carried-forward traps.** The rules for those cases (`total ≥ subtotal`, buyer name, `Σ lines`) remain the safety net: the deposit case with a 10 % deposit would *not* be caught (the balance due is still above the subtotal), which `tests/test_promote.py` documents as a known gap.
+- Mean latency per document through the CLI: 14 to 29 s (includes CLI start-up; not representative of the API).
+
+## Observability and the improvement loop (Langfuse)
+
+Tracing is off unless `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` are set (`LANGFUSE_BASE_URL` for self-hosted). With them:
+
+**Every extraction is traced.** `POST /documents` creates a `process_document` trace with an `extract` *generation* (model, tokens, raw structured output, LLM request id) and a `validate` *guardrail* (which fields were flagged and why; level `WARNING` when anything goes to review). The trace gets `needs_review` and `flagged_fields` scores, and its id is stored on the document and returned as `trace_id`. Traces carry file name, hash, extracted values and validation results, never the PDF.
+
+**Review decisions score the trace.** Resolving a review task adds a `human_review` score (`confirmed` / `corrected`, with the old and new value) to the extraction's trace, so you can filter Langfuse for exactly the extractions a human had to fix.
+
+**The evaluation set lives in Langfuse.** `--langfuse-dataset` syncs the labelled documents into a Langfuse dataset and records the run as an experiment, with per-document `field_accuracy`, `review_rate` and `missed_errors` scores and run-level accuracy / catch rate. Runs per model or prompt version are then comparable side by side.
+
+```bash
+procex-eval --dataset eval/dataset-hard --extractor claude --langfuse-dataset procex-eval \
+            --run-name hard-opus-prompt-v2 --save-outputs eval/results/hard-opus/outputs
+```
+
+**Failures become test cases.** `procex-promote` stores a failure as a regression case in `eval/regression/`: the PDF, the correct label, and the model output that got it wrong.
+
+```bash
+# documents a live evaluation got wrong
+procex-promote eval --dataset eval/dataset-hard --outputs eval/results/hard-haiku/outputs --source haiku
+# production documents a reviewer corrected (the API files them in the Langfuse dataset
+# procex-review-corrections, linked to their trace); originals are matched by hash
+procex-promote langfuse --pdf-dir /path/to/original/pdfs
+```
+
+`tests/test_regression_cases.py` replays every case offline in CI and asserts that each wrong value is still sent to review, so a prompt or rule change can't quietly reopen a hole the queue used to catch. If no rule catches an error yet, the case is recorded as a **known gap** and runs as a strict `xfail`: it documents the gap, and it fails once a new rule closes it, telling you to flip `known_gap` in `eval/regression/manifest.json`. The first case, `dataset-hard-bulk-2-haiku`, is Haiku's real thousand-separator misread from the run above.
+
+Run Langfuse locally with its [official Docker Compose setup](https://langfuse.com/self-hosting/deployment/docker-compose) (`LANGFUSE_INIT_*` variables pre-create a project and keys), or use Langfuse Cloud. The self-hosted stack (Postgres, ClickHouse, Redis, MinIO) needs a few GB of RAM. On a laptop's default Docker VM it dropped part of the trace data while live evaluations were running, and raising the client's `LANGFUSE_TIMEOUT` did not help. Eval reports are always written locally too, so nothing is lost but the traces.
 
 ## API
 
@@ -66,7 +114,7 @@ These numbers show that the validation rules and the scoring work. They are **no
 |---|---|---|
 | POST | `/documents` (multipart `file`) | extract; `201`, or `200` if this exact file was already processed |
 | GET | `/documents?status=needs_review` | list (`auto_approved`, `needs_review`, `reviewed`, `failed`) |
-| GET | `/documents/{id}` | data, per-field confidence and issues, token usage, open tasks |
+| GET | `/documents/{id}` | data, per-field confidence and issues, token usage, open tasks, Langfuse `trace_id` |
 | GET | `/review-tasks?status=open` | review queue, least confident first |
 | POST | `/review-tasks/{id}/resolve` | `{"value": ..., "reviewer": "anna"}`; send the extracted value to confirm it |
 | GET | `/health` | DB check |
@@ -97,10 +145,14 @@ pytest            # needs Docker for PostgreSQL
 - **Claude request:** PDF document block, structured output schema, effort, fallback, refusal / truncation / missing credentials, all against a stub client.
 - **API:** runs on real PostgreSQL via Testcontainers. Covers upload, dedupe, the review flow end to end, ordering, invalid input, and failed extraction.
 - **Regression:** a snapshot of which fields get flagged on every labelled document, plus a quality gate (auto-accepted accuracy and catch rate) that fails CI if a change makes things worse. After an intentional change, regenerate the snapshot with `UPDATE_SNAPSHOTS=1 pytest`.
+- **Promoted failures:** every case in `eval/regression/` replayed offline (see above), plus tests of `procex-promote` itself, including the known-gap path.
+- **Tracing:** span structure, generation/guardrail types, trace ids, review scores and the corrections dataset item, against an in-memory OpenTelemetry exporter (no Langfuse server needed).
 
 CI (`.github/workflows/ci.yml`) runs ruff, strict mypy, the tests, the offline eval gate and a Docker build. You can trigger a live eval against Claude manually.
 
 ## Limitations / next steps
 - Extraction is synchronous inside the request. At volume, move it to a queue worker, and use the Message Batches API for bulk backfills (50% cheaper).
-- Schema creation uses `create_all`. Add Alembic migrations before the schema needs to change in production.
+- Schema creation uses `create_all`. Add Alembic migrations before the schema needs to change in production (an existing database needs `ALTER TABLE documents ADD COLUMN trace_id varchar(32)` for this version).
 - The review API has no authentication. Put it behind the company's SSO before real use.
+- Reviewers correct fields; they can't add a line item the model skipped, so the label of a promoted review case can be incomplete. Check it before committing.
+- Both labelled sets are synthetic. The loop above is built for real documents: run it on anonymised production PDFs to get numbers that mean something for a specific supplier base.

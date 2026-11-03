@@ -1,0 +1,41 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Sierra Components Inc.",
+  "document_number": "903256258",
+  "document_date": "2026-04-18",
+  "currency": "USD",
+  "subtotal": 8035.14,
+  "total": 8035.14,
+  "line_items": [
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 2,
+      "unit_price": 19.05,
+      "line_total": 38.1
+    },
+    {
+      "part_number": "HX-M8-30-ZN",
+      "quantity": 6,
+      "unit_price": 248.19,
+      "line_total": 1489.14
+    },
+    {
+      "part_number": "VLV-BALL-DN32",
+      "quantity": 6,
+      "unit_price": 70.57,
+      "line_total": 423.42
+    },
+    {
+      "part_number": "CON-M12-8P",
+      "quantity": 24,
+      "unit_price": 146.75,
+      "line_total": 3522.0
+    },
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 12,
+      "unit_price": 213.54,
+      "line_total": 2562.48
+    }
+  ]
+}

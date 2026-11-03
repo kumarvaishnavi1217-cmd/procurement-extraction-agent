@@ -1,0 +1,41 @@
+{
+  "document_type": "quote",
+  "supplier_name": "Sierra Components Inc.",
+  "document_number": "QT-41280",
+  "document_date": "2026-06-02",
+  "currency": "USD",
+  "subtotal": 11137.15,
+  "total": 11137.15,
+  "line_items": [
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 25,
+      "unit_price": 129.04,
+      "line_total": 3226.0
+    },
+    {
+      "part_number": "CBL-NYY-5G1.5",
+      "quantity": 10,
+      "unit_price": 88.22,
+      "line_total": 882.2
+    },
+    {
+      "part_number": "WSH-8.4-ZN",
+      "quantity": 10,
+      "unit_price": 133.92,
+      "line_total": 1339.2
+    },
+    {
+      "part_number": "GSK-EPDM-50",
+      "quantity": 50,
+      "unit_price": 70.19,
+      "line_total": 3509.5
+    },
+    {
+      "part_number": "HX-M10-40-A2",
+      "quantity": 25,
+      "unit_price": 87.21,
+      "line_total": 2180.25
+    }
+  ]
+}

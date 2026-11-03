@@ -1,0 +1,143 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Rhine Precision Parts GmbH",
+    "confidence": 0.98,
+    "evidence": "Rhine Precision Parts GmbH · Rheinallee 40, 55118 Mainz"
+  },
+  "document_number": {
+    "value": "RE-26-65171",
+    "confidence": 0.98,
+    "evidence": "Rechnungsnummer: RE-26-65171"
+  },
+  "document_date": {
+    "value": "2026-08-22",
+    "confidence": 0.97,
+    "evidence": "Rechnungsdatum: 22.08.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "Rechnungsbetrag 44.739,54 €"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "FLT-HYD-25U",
+        "confidence": 0.97,
+        "evidence": "FLT-HYD-25U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 25 micron",
+        "confidence": 0.97,
+        "evidence": "Hydraulic filter element 25 micron"
+      },
+      "quantity": {
+        "value": 5.0,
+        "confidence": 0.97,
+        "evidence": "5 Stk"
+      },
+      "unit_price": {
+        "value": 137.45,
+        "confidence": 0.97,
+        "evidence": "137,45"
+      },
+      "line_total": {
+        "value": 687.25,
+        "confidence": 0.97,
+        "evidence": "687,25"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6204-2RS",
+        "confidence": 0.97,
+        "evidence": "BRG-6204-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-2RS",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6204-2RS"
+      },
+      "quantity": {
+        "value": 50.0,
+        "confidence": 0.97,
+        "evidence": "50 Stk"
+      },
+      "unit_price": {
+        "value": 166.39,
+        "confidence": 0.97,
+        "evidence": "166,39"
+      },
+      "line_total": {
+        "value": 8319.5,
+        "confidence": 0.97,
+        "evidence": "8.319,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-30-ZN",
+        "confidence": 0.97,
+        "evidence": "HX-M8-30-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x30, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x30, zinc plated"
+      },
+      "quantity": {
+        "value": 50.0,
+        "confidence": 0.97,
+        "evidence": "50 Stk"
+      },
+      "unit_price": {
+        "value": 278.15,
+        "confidence": 0.95,
+        "evidence": "278,15"
+      },
+      "line_total": {
+        "value": 13907.5,
+        "confidence": 0.97,
+        "evidence": "13.907,50"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN32",
+        "confidence": 0.97,
+        "evidence": "VLV-BALL-DN32"
+      },
+      "description": {
+        "value": "Ball valve DN32 stainless",
+        "confidence": 0.97,
+        "evidence": "Ball valve DN32 stainless"
+      },
+      "quantity": {
+        "value": 50.0,
+        "confidence": 0.97,
+        "evidence": "50 Stk"
+      },
+      "unit_price": {
+        "value": 293.64,
+        "confidence": 0.97,
+        "evidence": "293,64"
+      },
+      "line_total": {
+        "value": 14682.0,
+        "confidence": 0.97,
+        "evidence": "14.682,00"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 37596.25,
+    "confidence": 0.98,
+    "evidence": "Nettobetrag 37.596,25 €"
+  },
+  "total": {
+    "value": 44739.54,
+    "confidence": 0.98,
+    "evidence": "Rechnungsbetrag 44.739,54 €"
+  }
+}

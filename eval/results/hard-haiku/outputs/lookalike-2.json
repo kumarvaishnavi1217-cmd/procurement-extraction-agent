@@ -1,0 +1,170 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Rhine Precision Parts GmbH",
+    "confidence": 0.97,
+    "evidence": "Rhine Precision Parts GmbH"
+  },
+  "document_number": {
+    "value": "905315252",
+    "confidence": 0.97,
+    "evidence": "Billing document 905315252"
+  },
+  "document_date": {
+    "value": "2026-03-21",
+    "confidence": 0.97,
+    "evidence": "Date 21.03.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "Total EUR 3.183,94"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "CON-M12-4P",
+        "confidence": 0.95,
+        "evidence": "10 CON-M12-4P M12 connector 4-pin female, IP67, 5 m PUR cable 4 EA 41,05 164,20"
+      },
+      "description": {
+        "value": "M12 connector 4-pin female, IP67, 5 m PUR cable",
+        "confidence": 0.95,
+        "evidence": "M12 connector 4-pin female, IP67, 5 m PUR cable"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.97,
+        "evidence": "4 EA"
+      },
+      "unit_price": {
+        "value": 41.05,
+        "confidence": 0.97,
+        "evidence": "41,05"
+      },
+      "line_total": {
+        "value": 164.2,
+        "confidence": 0.97,
+        "evidence": "164,20"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CON-M12-8P",
+        "confidence": 0.95,
+        "evidence": "20 CON-M12-8P M12 connector 8-pin female, IP67, 5 m PUR cable 4 EA 68,30 273,20"
+      },
+      "description": {
+        "value": "M12 connector 8-pin female, IP67, 5 m PUR cable",
+        "confidence": 0.95,
+        "evidence": "M12 connector 8-pin female, IP67, 5 m PUR cable"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.97,
+        "evidence": "4 EA"
+      },
+      "unit_price": {
+        "value": 68.3,
+        "confidence": 0.97,
+        "evidence": "68,30"
+      },
+      "line_total": {
+        "value": 273.2,
+        "confidence": 0.97,
+        "evidence": "273,20"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.95,
+        "evidence": "30 BRG-6205-2RS Deep groove ball bearing 6205-2RS, C3 clearance, 20x47x14 mm 6 EA 227,47 1.364,82"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS, C3 clearance, 20x47x14 mm",
+        "confidence": 0.95,
+        "evidence": "Deep groove ball bearing 6205-2RS, C3 clearance, 20x47x14 mm"
+      },
+      "quantity": {
+        "value": 6.0,
+        "confidence": 0.97,
+        "evidence": "6 EA"
+      },
+      "unit_price": {
+        "value": 227.47,
+        "confidence": 0.97,
+        "evidence": "227,47"
+      },
+      "line_total": {
+        "value": 1364.82,
+        "confidence": 0.97,
+        "evidence": "1.364,82"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.95,
+        "evidence": "40 HX-M8-25-ZN Hex bolt M8x25, zinc plated, DIN 933, 8.8, box of 100 12 BOX 65,23 782,76"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated, DIN 933, 8.8, box of 100",
+        "confidence": 0.95,
+        "evidence": "Hex bolt M8x25, zinc plated, DIN 933, 8.8, box of 100"
+      },
+      "quantity": {
+        "value": 12.0,
+        "confidence": 0.97,
+        "evidence": "12 BOX"
+      },
+      "unit_price": {
+        "value": 65.23,
+        "confidence": 0.97,
+        "evidence": "65,23"
+      },
+      "line_total": {
+        "value": 782.76,
+        "confidence": 0.97,
+        "evidence": "782,76"
+      }
+    },
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN32",
+        "confidence": 0.95,
+        "evidence": "50 VLV-BALL-DN32 Ball valve DN32 stainless, PN40, 2-piece, ISO 5211 F05 4 EA 22,65 90,60"
+      },
+      "description": {
+        "value": "Ball valve DN32 stainless, PN40, 2-piece, ISO 5211 F05",
+        "confidence": 0.95,
+        "evidence": "Ball valve DN32 stainless, PN40, 2-piece, ISO 5211 F05"
+      },
+      "quantity": {
+        "value": 4.0,
+        "confidence": 0.97,
+        "evidence": "4 EA"
+      },
+      "unit_price": {
+        "value": 22.65,
+        "confidence": 0.97,
+        "evidence": "22,65"
+      },
+      "line_total": {
+        "value": 90.6,
+        "confidence": 0.97,
+        "evidence": "90,60"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 2675.58,
+    "confidence": 0.97,
+    "evidence": "Net value 2.675,58"
+  },
+  "total": {
+    "value": 3183.94,
+    "confidence": 0.97,
+    "evidence": "Total EUR 3.183,94"
+  }
+}

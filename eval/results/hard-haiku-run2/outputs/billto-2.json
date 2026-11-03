@@ -1,0 +1,170 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Keystone Electrical Supply Co.",
+    "confidence": 0.8,
+    "evidence": "Please remit to: Keystone Electrical Supply Co. · 88 Commerce Dr, Pittsburgh, PA 15222"
+  },
+  "document_number": {
+    "value": "290208",
+    "confidence": 0.97,
+    "evidence": "Invoice # 290208"
+  },
+  "document_date": {
+    "value": "2026-06-14",
+    "confidence": 0.97,
+    "evidence": "Invoice Date 06/14/2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.85,
+    "evidence": "Total USD 38,837.26"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "CON-M12-8P",
+        "confidence": 0.97,
+        "evidence": "CON-M12-8P M12 connector 8-pin female 2 117.81 235.62"
+      },
+      "description": {
+        "value": "M12 connector 8-pin female",
+        "confidence": 0.97,
+        "evidence": "M12 connector 8-pin female"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "CON-M12-8P M12 connector 8-pin female 2 117.81 235.62"
+      },
+      "unit_price": {
+        "value": 117.81,
+        "confidence": 0.97,
+        "evidence": "117.81"
+      },
+      "line_total": {
+        "value": 235.62,
+        "confidence": 0.97,
+        "evidence": "235.62"
+      }
+    },
+    {
+      "part_number": {
+        "value": "BRG-6204-ZZ",
+        "confidence": 0.97,
+        "evidence": "BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 10 82.91 829.10"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6204-ZZ",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6204-ZZ"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.97,
+        "evidence": "BRG-6204-ZZ Deep groove ball bearing 6204-ZZ 10 82.91 829.10"
+      },
+      "unit_price": {
+        "value": 82.91,
+        "confidence": 0.97,
+        "evidence": "82.91"
+      },
+      "line_total": {
+        "value": 829.1,
+        "confidence": 0.97,
+        "evidence": "829.10"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-3G2.5",
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-3G2.5 Power cable NYY-J 3G2.5 (per m) 2 126.89 253.78"
+      },
+      "description": {
+        "value": "Power cable NYY-J 3G2.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "Power cable NYY-J 3G2.5 (per m)"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-3G2.5 Power cable NYY-J 3G2.5 (per m) 2 126.89 253.78"
+      },
+      "unit_price": {
+        "value": 126.89,
+        "confidence": 0.97,
+        "evidence": "126.89"
+      },
+      "line_total": {
+        "value": 253.78,
+        "confidence": 0.97,
+        "evidence": "253.78"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.97,
+        "evidence": "HX-M8-25-ZN Hex bolt M8x25, zinc plated 100 297.46 29,746.00"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x25, zinc plated"
+      },
+      "quantity": {
+        "value": 100.0,
+        "confidence": 0.97,
+        "evidence": "HX-M8-25-ZN Hex bolt M8x25, zinc plated 100 297.46 29,746.00"
+      },
+      "unit_price": {
+        "value": 297.46,
+        "confidence": 0.97,
+        "evidence": "297.46"
+      },
+      "line_total": {
+        "value": 29746.0,
+        "confidence": 0.97,
+        "evidence": "29,746.00"
+      }
+    },
+    {
+      "part_number": {
+        "value": "NUT-M8-ZN",
+        "confidence": 0.97,
+        "evidence": "NUT-M8-ZN Hex nut M8, zinc plated 25 209.28 5,232.00"
+      },
+      "description": {
+        "value": "Hex nut M8, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex nut M8, zinc plated"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.97,
+        "evidence": "NUT-M8-ZN Hex nut M8, zinc plated 25 209.28 5,232.00"
+      },
+      "unit_price": {
+        "value": 209.28,
+        "confidence": 0.97,
+        "evidence": "209.28"
+      },
+      "line_total": {
+        "value": 5232.0,
+        "confidence": 0.97,
+        "evidence": "5,232.00"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 36296.5,
+    "confidence": 0.97,
+    "evidence": "Subtotal 36,296.50"
+  },
+  "total": {
+    "value": 38837.26,
+    "confidence": 0.97,
+    "evidence": "Total USD 38,837.26"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Nordwerk Industrietechnik GmbH",
+    "confidence": 0.97,
+    "evidence": "Nordwerk Industrietechnik GmbH"
+  },
+  "document_number": {
+    "value": "INV-2026-6622",
+    "confidence": 0.97,
+    "evidence": "Invoice No: INV-2026-6622"
+  },
+  "document_date": {
+    "value": "2026-02-22",
+    "confidence": 0.97,
+    "evidence": "Date: 22.02.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.97,
+    "evidence": "All amounts in EUR."
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "CON-M12-4P",
+        "confidence": 0.97,
+        "evidence": "CON-M12-4P"
+      },
+      "description": {
+        "value": "M12 connector 4-pin female",
+        "confidence": 0.97,
+        "evidence": "M12 connector 4-pin female"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.97,
+        "evidence": "10"
+      },
+      "unit_price": {
+        "value": 108.21,
+        "confidence": 0.95,
+        "evidence": "108,21"
+      },
+      "line_total": {
+        "value": 1082.1,
+        "confidence": 0.95,
+        "evidence": "1.082,10"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-5G1.5",
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-5G1.5"
+      },
+      "description": {
+        "value": "Power cable NYY-J 5G1.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "Power cable NYY-J 5G1.5 (per m)"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.97,
+        "evidence": "25"
+      },
+      "unit_price": {
+        "value": 246.87,
+        "confidence": 0.95,
+        "evidence": "246,87"
+      },
+      "line_total": {
+        "value": 6171.75,
+        "confidence": 0.95,
+        "evidence": "6.171,75"
+      }
+    },
+    {
+      "part_number": {
+        "value": "SNS-PT100-A",
+        "confidence": 0.97,
+        "evidence": "SNS-PT100-A"
+      },
+      "description": {
+        "value": "PT100 temperature sensor class A",
+        "confidence": 0.97,
+        "evidence": "PT100 temperature sensor class A"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 302.99,
+        "confidence": 0.95,
+        "evidence": "302,99"
+      },
+      "line_total": {
+        "value": 605.98,
+        "confidence": 0.95,
+        "evidence": "605,98"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 7859.83,
+    "confidence": 0.95,
+    "evidence": "7.859,83"
+  },
+  "total": {
+    "value": 9353.2,
+    "confidence": 0.95,
+    "evidence": "9.353,20"
+  }
+}

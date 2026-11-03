@@ -1,0 +1,143 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Keystone Electrical Supply Co.",
+    "confidence": 0.97,
+    "evidence": "Keystone Electrical Supply Co."
+  },
+  "document_number": {
+    "value": "INV-2026-1158",
+    "confidence": 0.98,
+    "evidence": "Invoice No: INV-2026-1158"
+  },
+  "document_date": {
+    "value": "2026-04-21",
+    "confidence": 0.95,
+    "evidence": "Date: 04/21/2026"
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.97,
+    "evidence": "All amounts in USD."
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "BRG-6205-2RS",
+        "confidence": 0.97,
+        "evidence": "BRG-6205-2RS"
+      },
+      "description": {
+        "value": "Deep groove ball bearing 6205-2RS",
+        "confidence": 0.97,
+        "evidence": "Deep groove ball bearing 6205-2RS"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 307.76,
+        "confidence": 0.97,
+        "evidence": "307.76"
+      },
+      "line_total": {
+        "value": 615.52,
+        "confidence": 0.97,
+        "evidence": "615.52"
+      }
+    },
+    {
+      "part_number": {
+        "value": "FLT-HYD-25U",
+        "confidence": 0.97,
+        "evidence": "FLT-HYD-25U"
+      },
+      "description": {
+        "value": "Hydraulic filter element 25 micron",
+        "confidence": 0.97,
+        "evidence": "Hydraulic filter element 25 micron"
+      },
+      "quantity": {
+        "value": 5.0,
+        "confidence": 0.97,
+        "evidence": "5"
+      },
+      "unit_price": {
+        "value": 56.16,
+        "confidence": 0.97,
+        "evidence": "56.16"
+      },
+      "line_total": {
+        "value": 280.8,
+        "confidence": 0.97,
+        "evidence": "280.80"
+      }
+    },
+    {
+      "part_number": {
+        "value": "NUT-M8-ZN",
+        "confidence": 0.97,
+        "evidence": "NUT-M8-ZN"
+      },
+      "description": {
+        "value": "Hex nut M8, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex nut M8, zinc plated"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 401.85,
+        "confidence": 0.97,
+        "evidence": "401.85"
+      },
+      "line_total": {
+        "value": 803.7,
+        "confidence": 0.97,
+        "evidence": "803.70"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M10-40-A2",
+        "confidence": 0.97,
+        "evidence": "HX-M10-40-A2"
+      },
+      "description": {
+        "value": "Hex bolt M10x40, stainless A2",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M10x40, stainless A2"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 546.23,
+        "confidence": 0.97,
+        "evidence": "546.23"
+      },
+      "line_total": {
+        "value": 1092.46,
+        "confidence": 0.97,
+        "evidence": "1,092.46"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 2792.48,
+    "confidence": 0.97,
+    "evidence": "2,792.48"
+  },
+  "total": {
+    "value": 2792.48,
+    "confidence": 0.97,
+    "evidence": "2,792.48"
+  }
+}

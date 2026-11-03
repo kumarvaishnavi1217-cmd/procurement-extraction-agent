@@ -1,0 +1,29 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Apex Fasteners Ltd",
+  "document_number": "212240",
+  "document_date": "2026-05-14",
+  "currency": "GBP",
+  "subtotal": 9582.16,
+  "total": 11498.59,
+  "line_items": [
+    {
+      "part_number": "HX-M10-40-A2",
+      "quantity": 10,
+      "unit_price": 262.57,
+      "line_total": 2625.7
+    },
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 2,
+      "unit_price": 388.48,
+      "line_total": 776.96
+    },
+    {
+      "part_number": "RLY-24VDC-2CO",
+      "quantity": 25,
+      "unit_price": 247.18,
+      "line_total": 6179.5
+    }
+  ]
+}

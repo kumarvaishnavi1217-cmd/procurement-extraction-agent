@@ -1,0 +1,107 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Baltic Hydraulics AB",
+  "document_number": "INV-728126",
+  "document_date": "2026-09-25",
+  "currency": "SEK",
+  "subtotal": 61651.79,
+  "total": 77064.74,
+  "line_items": [
+    {
+      "part_number": "NUT-M8-ZN",
+      "quantity": 1,
+      "unit_price": 722.93,
+      "line_total": 722.93
+    },
+    {
+      "part_number": "BRG-6204-ZZ",
+      "quantity": 20,
+      "unit_price": 728.88,
+      "line_total": 14577.6
+    },
+    {
+      "part_number": "HX-M8-25-ZN",
+      "quantity": 2,
+      "unit_price": 405.32,
+      "line_total": 810.64
+    },
+    {
+      "part_number": "VLV-BALL-DN32",
+      "quantity": 8,
+      "unit_price": 634.73,
+      "line_total": 5077.84
+    },
+    {
+      "part_number": "WSH-8.4-ZN",
+      "quantity": 2,
+      "unit_price": 403.53,
+      "line_total": 807.06
+    },
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 8,
+      "unit_price": 586.02,
+      "line_total": 4688.16
+    },
+    {
+      "part_number": "RLY-230VAC-2CO",
+      "quantity": 12,
+      "unit_price": 17.64,
+      "line_total": 211.68
+    },
+    {
+      "part_number": "SNS-PT1000-B",
+      "quantity": 12,
+      "unit_price": 577.63,
+      "line_total": 6931.56
+    },
+    {
+      "part_number": "GSK-EPDM-50",
+      "quantity": 8,
+      "unit_price": 204.25,
+      "line_total": 1634.0
+    },
+    {
+      "part_number": "FLT-HYD-25U",
+      "quantity": 4,
+      "unit_price": 526.7,
+      "line_total": 2106.8
+    },
+    {
+      "part_number": "MTR-0.75KW-4P",
+      "quantity": 2,
+      "unit_price": 537.92,
+      "line_total": 1075.84
+    },
+    {
+      "part_number": "CBL-NYY-5G1.5",
+      "quantity": 8,
+      "unit_price": 18.01,
+      "line_total": 144.08
+    },
+    {
+      "part_number": "HX-M10-40-A2",
+      "quantity": 40,
+      "unit_price": 174.87,
+      "line_total": 6994.8
+    },
+    {
+      "part_number": "GSK-NBR-50",
+      "quantity": 40,
+      "unit_price": 342.59,
+      "line_total": 13703.6
+    },
+    {
+      "part_number": "CON-M12-4P",
+      "quantity": 2,
+      "unit_price": 539.88,
+      "line_total": 1079.76
+    },
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 4,
+      "unit_price": 271.36,
+      "line_total": 1085.44
+    }
+  ]
+}

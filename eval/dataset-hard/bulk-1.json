@@ -1,0 +1,35 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Rhine Precision Parts GmbH",
+  "document_number": "F2669676",
+  "document_date": "2026-08-18",
+  "currency": "EUR",
+  "subtotal": 22595.15,
+  "total": 26888.23,
+  "line_items": [
+    {
+      "part_number": "GSK-EPDM-50",
+      "quantity": 10000,
+      "unit_price": 0.8469,
+      "line_total": 8469.0
+    },
+    {
+      "part_number": "FLT-HYD-10U",
+      "quantity": 1500,
+      "unit_price": 0.1691,
+      "line_total": 253.65
+    },
+    {
+      "part_number": "SNS-PT100-A",
+      "quantity": 25000,
+      "unit_price": 0.0133,
+      "line_total": 332.5
+    },
+    {
+      "part_number": "BRG-6205-2RS",
+      "quantity": 25000,
+      "unit_price": 0.5416,
+      "line_total": 13540.0
+    }
+  ]
+}

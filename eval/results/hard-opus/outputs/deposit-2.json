@@ -1,0 +1,143 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Nordwerk Industrietechnik GmbH",
+    "confidence": 0.98,
+    "evidence": "Nordwerk Industrietechnik GmbH"
+  },
+  "document_number": {
+    "value": "SI-36211",
+    "confidence": 0.98,
+    "evidence": "Invoice: SI-36211"
+  },
+  "document_date": {
+    "value": "2026-03-14",
+    "confidence": 0.8,
+    "evidence": "Tax point: 14.03.2026"
+  },
+  "currency": {
+    "value": "EUR",
+    "confidence": 0.98,
+    "evidence": "All amounts in EUR."
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.97,
+        "evidence": "VLV-BALL-DN25"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless",
+        "confidence": 0.97,
+        "evidence": "Ball valve DN25 stainless"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.95,
+        "evidence": "1"
+      },
+      "unit_price": {
+        "value": 2768.72,
+        "confidence": 0.97,
+        "evidence": "2.768,72"
+      },
+      "line_total": {
+        "value": 2768.72,
+        "confidence": 0.97,
+        "evidence": "2.768,72"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CON-M12-8P",
+        "confidence": 0.97,
+        "evidence": "CON-M12-8P"
+      },
+      "description": {
+        "value": "M12 connector 8-pin female",
+        "confidence": 0.97,
+        "evidence": "M12 connector 8-pin female"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.95,
+        "evidence": "1"
+      },
+      "unit_price": {
+        "value": 2804.34,
+        "confidence": 0.97,
+        "evidence": "2.804,34"
+      },
+      "line_total": {
+        "value": 2804.34,
+        "confidence": 0.97,
+        "evidence": "2.804,34"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M10-40-A2",
+        "confidence": 0.97,
+        "evidence": "HX-M10-40-A2"
+      },
+      "description": {
+        "value": "Hex bolt M10x40, stainless A2",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M10x40, stainless A2"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.95,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 3892.16,
+        "confidence": 0.97,
+        "evidence": "3.892,16"
+      },
+      "line_total": {
+        "value": 7784.32,
+        "confidence": 0.97,
+        "evidence": "7.784,32"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-30-ZN",
+        "confidence": 0.97,
+        "evidence": "HX-M8-30-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x30, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x30, zinc plated"
+      },
+      "quantity": {
+        "value": 3.0,
+        "confidence": 0.95,
+        "evidence": "3"
+      },
+      "unit_price": {
+        "value": 3679.15,
+        "confidence": 0.97,
+        "evidence": "3.679,15"
+      },
+      "line_total": {
+        "value": 11037.45,
+        "confidence": 0.97,
+        "evidence": "11.037,45"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 24394.83,
+    "confidence": 0.97,
+    "evidence": "Net total 24.394,83"
+  },
+  "total": {
+    "value": 29029.85,
+    "confidence": 0.9,
+    "evidence": "Invoice total 29.029,85"
+  }
+}

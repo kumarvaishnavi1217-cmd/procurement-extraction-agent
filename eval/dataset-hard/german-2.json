@@ -1,0 +1,35 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Rhine Precision Parts GmbH",
+  "document_number": "RE-26-65171",
+  "document_date": "2026-08-22",
+  "currency": "EUR",
+  "subtotal": 37596.25,
+  "total": 44739.54,
+  "line_items": [
+    {
+      "part_number": "FLT-HYD-25U",
+      "quantity": 5,
+      "unit_price": 137.45,
+      "line_total": 687.25
+    },
+    {
+      "part_number": "BRG-6204-2RS",
+      "quantity": 50,
+      "unit_price": 166.39,
+      "line_total": 8319.5
+    },
+    {
+      "part_number": "HX-M8-30-ZN",
+      "quantity": 50,
+      "unit_price": 278.15,
+      "line_total": 13907.5
+    },
+    {
+      "part_number": "VLV-BALL-DN32",
+      "quantity": 50,
+      "unit_price": 293.64,
+      "line_total": 14682.0
+    }
+  ]
+}

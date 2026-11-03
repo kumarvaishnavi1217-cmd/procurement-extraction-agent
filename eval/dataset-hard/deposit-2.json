@@ -1,0 +1,35 @@
+{
+  "document_type": "invoice",
+  "supplier_name": "Nordwerk Industrietechnik GmbH",
+  "document_number": "SI-36211",
+  "document_date": "2026-03-14",
+  "currency": "EUR",
+  "subtotal": 24394.83,
+  "total": 29029.85,
+  "line_items": [
+    {
+      "part_number": "VLV-BALL-DN25",
+      "quantity": 1,
+      "unit_price": 2768.72,
+      "line_total": 2768.72
+    },
+    {
+      "part_number": "CON-M12-8P",
+      "quantity": 1,
+      "unit_price": 2804.34,
+      "line_total": 2804.34
+    },
+    {
+      "part_number": "HX-M10-40-A2",
+      "quantity": 2,
+      "unit_price": 3892.16,
+      "line_total": 7784.32
+    },
+    {
+      "part_number": "HX-M8-30-ZN",
+      "quantity": 3,
+      "unit_price": 3679.15,
+      "line_total": 11037.45
+    }
+  ]
+}

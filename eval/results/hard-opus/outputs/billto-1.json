@@ -1,0 +1,116 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Apex Fasteners Ltd",
+    "confidence": 0.8,
+    "evidence": "Please remit to: Apex Fasteners Ltd · Unit 4, Riverside Park, Leeds LS9 0RQ"
+  },
+  "document_number": {
+    "value": "212240",
+    "confidence": 0.97,
+    "evidence": "Invoice # 212240"
+  },
+  "document_date": {
+    "value": "2026-05-14",
+    "confidence": 0.97,
+    "evidence": "14 May 2026"
+  },
+  "currency": {
+    "value": "GBP",
+    "confidence": 0.95,
+    "evidence": "Total GBP"
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "HX-M10-40-A2",
+        "confidence": 0.97,
+        "evidence": "HX-M10-40-A2"
+      },
+      "description": {
+        "value": "Hex bolt M10x40, stainless A2",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M10x40, stainless A2"
+      },
+      "quantity": {
+        "value": 10.0,
+        "confidence": 0.97,
+        "evidence": "10"
+      },
+      "unit_price": {
+        "value": 262.57,
+        "confidence": 0.97,
+        "evidence": "262.57"
+      },
+      "line_total": {
+        "value": 2625.7,
+        "confidence": 0.97,
+        "evidence": "2,625.70"
+      }
+    },
+    {
+      "part_number": {
+        "value": "HX-M8-25-ZN",
+        "confidence": 0.97,
+        "evidence": "HX-M8-25-ZN"
+      },
+      "description": {
+        "value": "Hex bolt M8x25, zinc plated",
+        "confidence": 0.97,
+        "evidence": "Hex bolt M8x25, zinc plated"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "2"
+      },
+      "unit_price": {
+        "value": 388.48,
+        "confidence": 0.97,
+        "evidence": "388.48"
+      },
+      "line_total": {
+        "value": 776.96,
+        "confidence": 0.97,
+        "evidence": "776.96"
+      }
+    },
+    {
+      "part_number": {
+        "value": "RLY-24VDC-2CO",
+        "confidence": 0.97,
+        "evidence": "RLY-24VDC-2CO"
+      },
+      "description": {
+        "value": "Relay 24 V DC 2 CO",
+        "confidence": 0.97,
+        "evidence": "Relay 24 V DC 2 CO"
+      },
+      "quantity": {
+        "value": 25.0,
+        "confidence": 0.97,
+        "evidence": "25"
+      },
+      "unit_price": {
+        "value": 247.18,
+        "confidence": 0.97,
+        "evidence": "247.18"
+      },
+      "line_total": {
+        "value": 6179.5,
+        "confidence": 0.97,
+        "evidence": "6,179.50"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 9582.16,
+    "confidence": 0.97,
+    "evidence": "Subtotal 9,582.16"
+  },
+  "total": {
+    "value": 11498.59,
+    "confidence": 0.97,
+    "evidence": "Total GBP 11,498.59"
+  }
+}

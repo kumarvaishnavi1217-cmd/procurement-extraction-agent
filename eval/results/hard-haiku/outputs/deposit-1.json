@@ -1,0 +1,143 @@
+{
+  "document_type": "invoice",
+  "supplier_name": {
+    "value": "Apex Fasteners Ltd",
+    "confidence": 0.97,
+    "evidence": "Apex Fasteners Ltd"
+  },
+  "document_number": {
+    "value": "SI-33323",
+    "confidence": 0.97,
+    "evidence": "Invoice: SI-33323"
+  },
+  "document_date": {
+    "value": "2026-08-14",
+    "confidence": 0.85,
+    "evidence": "Tax point: 14 August 2026"
+  },
+  "currency": {
+    "value": "GBP",
+    "confidence": 0.98,
+    "evidence": "All amounts in GBP."
+  },
+  "line_items": [
+    {
+      "part_number": {
+        "value": "VLV-BALL-DN25",
+        "confidence": 0.97,
+        "evidence": "VLV-BALL-DN25 Ball valve DN25 stainless 2 2,289.71 4,579.42"
+      },
+      "description": {
+        "value": "Ball valve DN25 stainless",
+        "confidence": 0.97,
+        "evidence": "Ball valve DN25 stainless"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "VLV-BALL-DN25 Ball valve DN25 stainless 2 2,289.71 4,579.42"
+      },
+      "unit_price": {
+        "value": 2289.71,
+        "confidence": 0.97,
+        "evidence": "2,289.71"
+      },
+      "line_total": {
+        "value": 4579.42,
+        "confidence": 0.97,
+        "evidence": "4,579.42"
+      }
+    },
+    {
+      "part_number": {
+        "value": "CBL-NYY-5G1.5",
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 2 3,777.49 7,554.98"
+      },
+      "description": {
+        "value": "Power cable NYY-J 5G1.5 (per m)",
+        "confidence": 0.97,
+        "evidence": "Power cable NYY-J 5G1.5 (per m)"
+      },
+      "quantity": {
+        "value": 2.0,
+        "confidence": 0.97,
+        "evidence": "CBL-NYY-5G1.5 Power cable NYY-J 5G1.5 (per m) 2 3,777.49 7,554.98"
+      },
+      "unit_price": {
+        "value": 3777.49,
+        "confidence": 0.97,
+        "evidence": "3,777.49"
+      },
+      "line_total": {
+        "value": 7554.98,
+        "confidence": 0.97,
+        "evidence": "7,554.98"
+      }
+    },
+    {
+      "part_number": {
+        "value": "GSK-EPDM-50",
+        "confidence": 0.97,
+        "evidence": "GSK-EPDM-50 EPDM gasket 50 mm 1 2,551.45 2,551.45"
+      },
+      "description": {
+        "value": "EPDM gasket 50 mm",
+        "confidence": 0.97,
+        "evidence": "EPDM gasket 50 mm"
+      },
+      "quantity": {
+        "value": 1.0,
+        "confidence": 0.97,
+        "evidence": "GSK-EPDM-50 EPDM gasket 50 mm 1 2,551.45 2,551.45"
+      },
+      "unit_price": {
+        "value": 2551.45,
+        "confidence": 0.97,
+        "evidence": "2,551.45"
+      },
+      "line_total": {
+        "value": 2551.45,
+        "confidence": 0.97,
+        "evidence": "2,551.45"
+      }
+    },
+    {
+      "part_number": {
+        "value": "MTR-1.1KW-4P",
+        "confidence": 0.97,
+        "evidence": "MTR-1.1KW-4P Induction motor 1.1 kW 4-pole 3 1,485.51 4,456.53"
+      },
+      "description": {
+        "value": "Induction motor 1.1 kW 4-pole",
+        "confidence": 0.97,
+        "evidence": "Induction motor 1.1 kW 4-pole"
+      },
+      "quantity": {
+        "value": 3.0,
+        "confidence": 0.97,
+        "evidence": "MTR-1.1KW-4P Induction motor 1.1 kW 4-pole 3 1,485.51 4,456.53"
+      },
+      "unit_price": {
+        "value": 1485.51,
+        "confidence": 0.97,
+        "evidence": "1,485.51"
+      },
+      "line_total": {
+        "value": 4456.53,
+        "confidence": 0.97,
+        "evidence": "4,456.53"
+      }
+    }
+  ],
+  "subtotal": {
+    "value": 19142.38,
+    "confidence": 0.97,
+    "evidence": "Net total 19,142.38"
+  },
+  "total": {
+    "value": 22970.86,
+    "confidence": 0.95,
+    "evidence": "Invoice total 22,970.86"
+  }
+}
